@@ -1,0 +1,199 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  padding-bottom: 2em;
+}
+
+:root{
+    margin: 0;
+    padding: 0;
+    --color-primary:#EC5242;
+    --color-secondary:#272A31;
+    --color-third:#d3d3d3;
+    --fonts: 'lato', Arial, Helvetica, sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+/* Header navigation section design */
+
+.logo {
+  text-decoration: none;
+  font-family: 'lato', Arial, Helvetica, sans-serif;
+  font-style: bold;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 100%;
+  color: var(--color-primary);
+  margin-left: 3%;
+}
+
+.logo h3{
+    font-weight: bolder;
+}
+
+.header-nav-mobile {
+    margin-left: ;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--color-secondary);
+}
+
+.menu-bar-mobile {
+    
+    margin-left: 45%;
+  }
+
+.menu-list-mobile{
+    display: none;
+}
+
+/* Styling first section */
+.first-section{
+    background-image: url(/assets/img/background\ image.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: auto;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    height: 100vh; 
+}
+        
+.flex-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.small-title {
+    color: var(--color-secondary);
+    margin-right: 45%;
+    margin-top: 20%;
+   font-family: 'lato', Arial, Helvetica, sans-serif;
+  font-style: bold;
+  font-weight: 800;
+  font-style: italic;
+    font-size: 18px;
+    margin-top: ;
+}
+
+.small-title-inner{
+    color: var(--color-primary);
+    font-size: 26px;
+}
+
+.big-title{
+font-family: var(--fonts);
+font-style: bold;
+  font-weight: 1000;
+  font-style: italic;
+    font-size: 25px;
+    color: var(--color-secondary);
+    font-size: 45px;
+    margin-right: 55%;
+    margin-top: -10%;
+
+}
+
+.middle-title{
+    font-family: var(--fonts);
+     font-size: 25px;
+    margin-top: -6%;
+    margin-right: 20%;
+    font-style: bold;
+  font-weight: 800;
+  font-style: italic;
+    font-size: 18px;
+    color: var(--color-primary);
+}
+
+.small-title-1{
+    color: var(--color-primary);
+    font-family: var(--fonts);
+    font-style: italic;
+    font-size: 18px;
+    margin-top: -10%;
+    margin-right: 27%
+
+}
+
+.small-title-2{
+    color: var(--color-secondary);
+    font-family: var(--fonts);
+    font-weight: 900;
+    font-style: italic;
+    font-size: 22px;
+    margin-top: -5%;
+    margin-right: 25%;
+}
+
+.small-title-2-inner{
+    color: var(--color-primary);
+}
+
+.first-section-btn{
+    display: flex;
+    flex-direction: column ;
+    margin-right: 17%;
+    margin-top: -3%;
+}
+
+.join{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    border: none;
+    background: var(--color-primary);
+    color: var(--color-third);
+    padding: 5% 5%;
+    border-radius: 4px;
+    font-family: var(--fonts);
+    font-weight:bold;
+    width: 100%;
+}
+
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    border: none;
+    background: var(--color-primary);
+    color: var(--color-third);
+    padding: 5% 5%;
+    border-radius: 4px;
+    font-family: var(--fonts);
+    font-weight:bold;
+    width: 100px;
+    padding: 5% 5%;
+}
+
+
+.first-section-btn .contact{
+    margin-left: 10%;
+}
+
+
+/* Gym main programs*/
+.skill-img  img{
+     display: flex;
+  justify-content: center;
+  align-self: center;
+  width: 100px;
+  height: 100px;
+}
+
