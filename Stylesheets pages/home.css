@@ -189,11 +189,119 @@ font-style: bold;
 
 
 /* Gym main programs*/
-.skill-img  img{
-     display: flex;
-  justify-content: center;
-  align-self: center;
-  width: 100px;
-  height: 100px;
+.flex-container, .flex-container-program{
+   margin: 0;
+   padding: 0;
 }
 
+.flex-container-program{
+    background-color: var(--color-secondary);
+    margin-top: -22%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.holder{
+    display: flex;
+    justify-content: center;
+    color: var(--color-primary);
+    font-family: var(--fonts);
+    font-size: 18px;
+}
+
+.holder h2{
+    margin-top: 18%;
+}
+
+.line-mobile {
+  content: "";
+  display: flex;
+  justify-content: center;
+  height: 2px;
+  width: 100px;
+  background-color: var(--color-primary);
+  border-radius: 9px;
+  margin-top: -2%;
+  margin-bottom: 15%;
+}
+
+.skill-img  img{
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  width: 50px;
+  height: 50px;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+.myself-skillset{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right:9%;
+}
+.skill-cards{
+     display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: space-between;
+
+}
+.skill-categories {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2em;
+  height: 120px;
+  width:100%;
+  background: var(--color-third);
+  border: 1px lightgrey solid;
+  border-radius: 5px;
+  transition: box-shadow 0.4s ease-out;
+}
+
+.skill-title{
+    color: var(--color-primary);
+    font-family: var(--fonts);
+    font-size: 14PX;
+    line-break: auto;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.skill-categories p{
+    display: flex;
+    color: var(--color-secondary);
+    font-family: var(--fonts);
+    font-size: 12px;
+    width: 100%;
+}
+
+.promotion{
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+    align-items: center;margin-bottom: 7%;
+}
+
+.promotion h2{
+    text-align: center;
+    color: var(--color-primary);
+    font-family: var(--fonts);
+}
+
+.promo-btn{
+    background-color: var(--color-primary);
+    color: var(--color-third);
+    font-family: var(--fonts);
+    padding: 20px 20px;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: medium;
+    
+}
