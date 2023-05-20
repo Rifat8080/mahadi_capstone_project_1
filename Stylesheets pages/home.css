@@ -40,7 +40,6 @@ li{
 }
 
 .header-nav-mobile {
-    margin-left: ;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -86,7 +85,7 @@ li{
   font-weight: 800;
   font-style: italic;
     font-size: 18px;
-    margin-top: ;
+
 }
 
 .small-title-inner{
