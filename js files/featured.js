@@ -1,81 +1,159 @@
-const body = document.querySelector('.expandcard');
-const projects = document.getElementById('projects');
-const popUp = document.createElement('section');
-const showButton = document.getElementsByClassName('popBtn');
-
-const projectInfo = [
+// Data for the cards
+const cardsData = [
   {
-    id: 0,
-    header: 'Yochai Benkler',
-    popupPhoto: 'Imgs/Recent works/1.jpg',
-    content: 'Lorem Ipsum is dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.',
-    tools: 'Trainer',
+    imageSrc: 'assets/img/carousel-1.jpg',
+    title: 'Yochai Benkler',
+    subtitle: 'GMM Bodybuilding Competition Winner of 2019',
+    description: 'This is the description for Card 1.',
   },
   {
-    id: 1,
-    header: 'Soh Yeong Noh',
-    popupPhoto: 'Imgs/Recent works/2.jpg',
-    content: 'Lorem Ipsum is dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.',
-    tools: 'Trainer',
+    imageSrc: '',
+    title: 'Loki Herman',
+    subtitle: 'London Weight Lifting Championship Winner of 2017',
+    description: 'This is the description for Card 1.',
   },
   {
-    id: 2,
-    header: 'James Taylor',
-    popupPhoto: 'Imgs/Recent works/3.jpg',
-    content: 'Lorem Ipsum is dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.',
-    tools: 'Trainer',
+    imageSrc: 'Ryan Merkley',
+    title: 'Card 1',
+    subtitle: 'Subtitle 1',
+    description: 'This is the description for Card 1.',
   },
   {
-    id: 3,
-    header: 'Adam Phillips',
-    popupPhoto: 'Imgs/Recent works/4.jpg',
-    content: 'Lorem Ipsum is dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.',
-    tools: 'Trainer',
+    imageSrc: 'Kilnam Chon',
+    title: 'Card 1',
+    subtitle: 'Subtitle 1',
+    description: 'This is the description for Card 1.',
   },
   {
-    id: 4,
-    header: 'John Deo',
-    popupPhoto: 'Imgs/Recent works/5.jpg',
-    content: 'Lorem Ipsum is dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.',
-    tools: 'Trainer',
+    imageSrc: '',
+    title: 'Card 1',
+    subtitle: 'Subtitle 1',
+    description: 'This is the description for Card 1.',
   },
   {
-    id: 5,
-    header: 'Alex Costa',
-    popupPhoto: 'Imgs/Recent works/6.jpg',
-    content: 'Lorem Ipsum is dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.',
-    tools: 'Trainer',
+    imageSrc: 'path_to_image1.jpg',
+    title: 'Card 1',
+    subtitle: 'Subtitle 1',
+    description: 'This is the description for Card 1.',
   },
+  
 ];
 
-for (let i = 0; i < projectInfo.length; i += 1) {
-  const card = document.createElement('div'); // to generate a new card for each project
-  card.classList.add('card-body');
-  let toolsHtml = '';
-  for (let j = 0; j < projectInfo[i].tools.length; j += 1) {
-    toolsHtml += `<p>${projectInfo[i].tools[j]}</p>`;
+// Get the container element to hold the cards
+const container = document.getElementById('card-container');
+
+// Set the number of cards to show initially and the increment value
+const cardsToShowInitially = 3;
+const cardsToShowIncrement = 3;
+
+// Function to create and append the cards
+function createAndAppendCards(startIndex, endIndex) {
+  for (let i = startIndex; i < endIndex; i++) {
+    const card = cardsData[i];
+
+    // Create the card elements
+    const cardElement = document.createElement('div');
+    cardElement.classList.add('card');
+
+    const imageElement = document.createElement('img');
+    imageElement.src = card.imageSrc;
+
+    const titleElement = document.createElement('h1');
+    titleElement.textContent = card.title;
+
+    const subtitleElement = document.createElement('h3');
+    subtitleElement.textContent = card.subtitle;
+
+    const descriptionElement = document.createElement('p');
+    descriptionElement.textContent = card.description;
+
+    // Append the elements to the card container
+    cardElement.appendChild(imageElement);
+    cardElement.appendChild(titleElement);
+    cardElement.appendChild(subtitleElement);
+    cardElement.appendChild(descriptionElement);
+
+    // Append the card to the container
+    container.appendChild(cardElement);
   }
-
-  card.innerHTML = `
-
-  <div class="card-main">
-   <div class="card-box">
-    <div class="card-img">
-      <img src="${projectInfo[i].popupPhoto}" />
-    </div>
-    <div>
-      <h2 class="card-header">${projectInfo[i].header}</h2>
-      <div class="card-content">
-        
-        <p class="tools">
-          ${toolsHtml}
-        </p>
-      </div>
-    </div>
-    </div>
-    </div>
-    
-  `;
-
-  projects.appendChild(card);
 }
+
+// Create and append the initial set of cards
+createAndAppendCards(0, cardsToShowInitially);
+
+let seeMoreButton; // Declare seeMoreButton outside of the functions
+
+// Function to handle the 'See More' button click
+function handleSeeMoreClick() {
+  // Remove the 'See More' button
+  container.removeChild(seeMoreButton);
+
+  // Calculate the next set of cards to show
+  const currentCardCount = container.getElementsByClassName('card').length;
+  const nextCardsToShow = currentCardCount + cardsToShowIncrement;
+
+  // Create and append the remaining cards
+  createAndAppendCards(currentCardCount, nextCardsToShow);
+
+  // Check if there are more cards to show
+  if (nextCardsToShow < cardsData.length) {
+    // Create the 'See More' button again
+    seeMoreButton = document.createElement('button');
+    seeMoreButton.textContent = 'See More';
+    container.appendChild(seeMoreButton);
+
+    // Add event listener for the 'See More' button click
+    seeMoreButton.addEventListener('click', handleSeeMoreClick);
+  }
+}
+
+// Check if there are more cards to show
+if (cardsData.length > cardsToShowInitially) {
+  const viewportWidth = Math.max(
+    document.documentElement.clientWidth || 0,
+    window.innerWidth || 0
+  );
+
+  if (viewportWidth <= 768) {
+    // Create the 'See More' button
+    seeMoreButton = document.createElement('button');
+    seeMoreButton.textContent = 'See More';
+    container.appendChild(seeMoreButton);
+
+    // Add event listener for the 'See More' button click
+    seeMoreButton.addEventListener('click', handleSeeMoreClick);
+  } else {
+    // Create and append the remaining cards
+    createAndAppendCards(cardsToShowInitially, cardsData.length);
+  }
+}
+
+// Function to check the viewport width and handle the 'See More' button visibility
+function checkViewportWidth() {
+  const viewportWidth = Math.max(
+    document.documentElement.clientWidth || 0,
+    window.innerWidth || 0
+  );
+
+  if (viewportWidth <= 768 && !container.querySelector('button')) {
+    // Create the 'See More' button
+    seeMoreButton = document.createElement('button');
+    seeMoreButton.textContent = 'See More';
+    container.appendChild(seeMoreButton);
+
+    // Add event listener for the 'See More' button click
+    seeMoreButton.addEventListener('click', handleSeeMoreClick);
+  } else if (viewportWidth > 768) {
+    // Remove the 'See More' button
+    const seeMoreButton = container.querySelector('button');
+    if (seeMoreButton) {
+      container.removeChild(seeMoreButton);
+    }
+  }
+}
+
+// Check the viewport width when the window is resized
+window.addEventListener('resize', checkViewportWidth);
+
+// Initial check of the viewport width
+checkViewportWidth();
