@@ -72,7 +72,7 @@
 }
 
 #card-container button:hover {
-  background-color: #fff;
+  background-color: var(--color-third);
 }
 
 .contentCotainer{
