@@ -1,0 +1,211 @@
+:root{
+    margin: 0;
+    padding: 0;
+    --color-primary:#EC5242;
+    --color-secondary:#272A31;
+    --color-third:#d3d3d3;
+    --fonts: 'lato', Arial, Helvetica, sans-serif;
+}
+
+/* First Section */
+.about{
+    background-image: url(/assets/img/about/background\ image\ mobile.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    height: 100%; 
+}
+
+.about-first-title{
+    font-family: var(--fonts);
+    color: var(--color-primary);
+    margin-top: 20%;
+    text-align: center;
+    font-size: 16px;
+}
+
+.about-second-title{
+    font-family: var(--fonts);
+    font-weight: bold;
+    color: #EC5242;
+    text-align: center;
+    margin-top: -2%;
+    font-size: 20px;
+}
+
+.info-box-about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.box-brief{
+    background-color: var(--color-third);
+    padding: 5%;
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: -4%;
+    color: var(--color-secondary);
+    font-family: var(--fonts);
+    font-size: 16px;
+}
+
+.help-text{
+    text-align: center;
+    margin-top: -3%;
+    color: var(--color-third);
+    font-size: 16px;
+    font-family: var(--fonts);
+    margin:0 7%;
+}
+
+.info-email {
+    margin-bottom: 15%;
+    text-decoration: none;
+    font-family: var(--fonts) ;
+    color: var(--color-third);
+    font-size: larger;
+}
+
+
+/* Second section */
+
+.about-second{
+    background-color: white;
+}
+
+.about-second-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.com-title{
+    display: flex;
+    justify-content: center;
+    color: var(--color-secondary);
+    font-family: var(--fonts);
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 15%;
+}
+
+.com-title-dash{
+     content: "";
+  display: flex;
+  justify-content: center;
+  height: 2px;
+  width: 50px;
+  background-color: var(--color-primary);
+  border-radius: 9px;
+  margin-top: -2%;
+  margin-bottom: 3%;
+}
+
+.com-description{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: var(--fonts);
+    color: var(--color-secondary);
+    font-size: 16px;
+    padding: 0 5%;
+}
+
+.com-winner{
+    border: 1px solid var(--color-third);
+    height: 80%;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+}
+
+.com-winner img{
+    padding: 5% 0;
+    width: 100px;
+    height: 100px;
+}
+
+.second-end{
+      content: "";
+  display: flex;
+  justify-content: center;
+  height: 1px;
+  width: 100%;
+  background-color: var(--color-third);
+  border-radius: 9px;
+  margin-top: 10%;
+  margin-bottom: 3%;
+}
+
+
+/* Winner history section */
+
+.win{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.winner-h-title{
+    display: flex;
+    justify-content: center;
+    color: var(--color-secondary);
+    font-family: var(--fonts);
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 15%;
+}
+
+.winner-dash{
+  content: "";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 2px;
+  width: 50px;
+  background-color: var(--color-primary);
+  border-radius: 9px;
+  margin-bottom: 3%;
+}
+
+.winner-des{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: var(--fonts);
+    font-size: 16px;
+    padding: 0 5%;
+    color: var(--color-secondary);
+}
+
+.winner-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+}
+
+.winner-specs{
+    padding: 0 10%;
+}
+.winner-images{
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-color: rgba(236, 82,66);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

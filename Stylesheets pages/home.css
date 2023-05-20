@@ -62,11 +62,10 @@ li{
     background-image: url(/assets/img/background\ image.png);
     background-repeat: no-repeat;
     background-size: 100%;
-    height: auto;
     overflow: hidden;
     display: flex;
     flex-direction: column;
-    height: 100vh; 
+    height: 100%; 
 }
         
 .flex-container{
@@ -75,7 +74,7 @@ li{
     align-items: center;
     text-align: center;
     width: 100%;
-    height: 100vh;
+    height: 100%;
 }
 
 .small-title {
@@ -196,7 +195,6 @@ font-style: bold;
 
 .flex-container-program{
     background-color: var(--color-secondary);
-    margin-top: -22%;
     display: flex;
     flex-direction: column;
     justify-content: center;
