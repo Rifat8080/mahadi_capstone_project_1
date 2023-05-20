@@ -1,7 +1,7 @@
 // Data for the cards
 const cardsData = [
   {
-    imageSrc: 'assets/img/carousel-1.jpg',
+    imageSrc: '',
     title: 'Yochai Benkler',
     subtitle: 'GMM Bodybuilding Competition Winner of 2019',
     description: 'This is the description for Card 1.',
