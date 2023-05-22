@@ -6,7 +6,7 @@
   --color-primary: #ec5242;
   --color-secondary: #272a31;
   --color-third: #d3d3d3;
-  --fonts: 'lato', Arial, Helvetica, sans-serif;
+  --fonts: 'lato', arial, helvetica, sans-serif;
 }
 
 /* Styles for card elements */
@@ -26,6 +26,7 @@
   justify-content: flex-start;
   padding-left: 5%;
 }
+
 .card img {
   display: flex;
   justify-content: center;
