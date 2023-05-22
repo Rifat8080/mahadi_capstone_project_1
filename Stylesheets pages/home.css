@@ -56,6 +56,8 @@ li{
     display: none;
 }
 
+
+
 /* Styling first section */
 .first-section{
     background-image: url(/assets/img/background\ image.png);
@@ -552,4 +554,73 @@ font-style: bold;
     margin-right: 25%;
 }
 
+}
+
+
+/* Responsive breakpoint desktop 1024 */
+
+@media (min-width:769px) and (max-width:1024px){
+    .overlay {
+    display: none;
+  }
+
+  /* Navbar work */
+  
+  .header-nav-mobile {
+    display: none;
+  }
+
+  .menu-bar-mobile{
+    display: none;
+  }
+
+  .menu-bar-close{
+    display: none; 
+ }
+
+  .desktop-header-nav {
+    padding: 0 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .menu-item a {
+    text-decoration: none;
+  }
+
+  .header-nav-d {
+    position: fixed;
+    z-index: 9999;
+    margin-left: 35%;
+    margin-top: -6%;
+    
+  }
+
+  .header-nav-desktop ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .menu-item {
+    list-style: none;
+    text-decoration: none;
+    padding: 0;
+    margin: 1em;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+    line-height: 4rem;
+  }
+
+  .menu-list .menu-item a {
+    color: var(--color-primary);
+    font-family: var(--fonts);
+  }
+
+  /* First section work */
+  
 }
