@@ -4,39 +4,44 @@ const cardsData = [
     imageSrc: '/assets/Featured/trainer1.png',
     title: 'Yochai Benkler',
     subtitle: 'GMM Bodybuilding Competition Winner of 2019',
-    description: 'This is the description for Card 1. Lorem Ipsum is simply dummy text of the printing and typesetting.',
+    description:
+      'This is the description for Card 1. Lorem Ipsum is simply dummy text of the printing and typesetting.',
   },
   {
     imageSrc: '/assets/Featured/Trainer 2.png',
     title: 'Loki Herman',
     subtitle: 'London Weight Lifting Championship Winner of 2017',
-    description: 'This is the description for Card 2. Lorem Ipsum is simply dummy text of the printing and typesetting.',
+    description:
+      'This is the description for Card 2. Lorem Ipsum is simply dummy text of the printing and typesetting.',
   },
   {
     imageSrc: '/assets/Featured/trainer 3.png',
     title: 'Ryan Merkley',
     subtitle: 'Warsaw Weight Lifting Championship Winner of 2017',
-    description: 'This is the description for Card 3. Lorem Ipsum is simply dummy text of the printing and typesetting.',
+    description:
+      'This is the description for Card 3. Lorem Ipsum is simply dummy text of the printing and typesetting.',
   },
   {
     imageSrc: '/assets/Featured/trainer 4.png',
     title: 'Kilnam Chon',
     subtitle: 'Korea Weight Lifting Championship Winner of 2017',
-    description: 'This is the description for Card 4. Lorem Ipsum is simply dummy text of the printing and typesetting.',
+    description:
+      'This is the description for Card 4. Lorem Ipsum is simply dummy text of the printing and typesetting.',
   },
   {
     imageSrc: '/assets/Featured/trainer 5.png',
     title: 'Robert Jules',
     subtitle: 'Germany Weight Lifting Championship Winner of 2017',
-    description: 'This is the description for Card 1. Lorem Ipsum is simply dummy text of the printing and typesetting.',
+    description:
+      'This is the description for Card 1. Lorem Ipsum is simply dummy text of the printing and typesetting.',
   },
   {
     imageSrc: '/assets/Featured/trainer 6.png',
     title: 'James Havard',
     subtitle: 'Singapore Weight Lifting Championship Winner of 2017',
-    description: 'This is the description for Card 1. Lorem Ipsum is simply dummy text of the printing and typesetting.',
+    description:
+      'This is the description for Card 1. Lorem Ipsum is simply dummy text of the printing and typesetting.',
   },
-  
 ];
 
 // Get the container element to hold the cards
@@ -48,44 +53,37 @@ const cardsToShowIncrement = 3;
 
 // Function to create and append the cards
 function createAndAppendCards(startIndex, endIndex) {
-  for (let i = startIndex; i < endIndex; i++) {
+  for (let i = startIndex; i < endIndex; i += 1) {
     const card = cardsData[i];
-    
+
     // // Append the card to the container
-     
     // container.appendChild(cardElement);
     const cardMainElement = document.createElement('div');
-cardMainElement.classList.add('card-main');
-    
+    cardMainElement.classList.add('card-main');
     const cardElement = document.createElement('div');
-cardElement.classList.add('card');
+    cardElement.classList.add('card');
+    const imageElement = document.createElement('img');
+    imageElement.src = card.imageSrc;
+    const contentWrapper = document.createElement('div'); // Create a new div container
+    contentWrapper.classList.add('content-wrapper'); // Add a class to the container
+    const titleElement = document.createElement('h1');
+    titleElement.textContent = card.title;
+    const subtitleElement = document.createElement('h3');
+    subtitleElement.textContent = card.subtitle;
+    const descriptionElement = document.createElement('p');
+    descriptionElement.textContent = card.description;
 
-const imageElement = document.createElement('img');
-imageElement.src = card.imageSrc;
+    // Append the elements to the content wrapper
+    contentWrapper.appendChild(titleElement);
+    contentWrapper.appendChild(subtitleElement);
+    contentWrapper.appendChild(descriptionElement);
 
-const contentWrapper = document.createElement('div'); // Create a new div container
-contentWrapper.classList.add('content-wrapper'); // Add a class to the container
+    // Append the image and content wrapper to the card container
+    cardElement.appendChild(imageElement);
+    cardElement.appendChild(contentWrapper);
+    cardMainElement.appendChild(cardElement);
 
-const titleElement = document.createElement('h1');
-titleElement.textContent = card.title;
-
-const subtitleElement = document.createElement('h3');
-subtitleElement.textContent = card.subtitle;
-
-const descriptionElement = document.createElement('p');
-descriptionElement.textContent = card.description;
-
-    
-// Append the elements to the content wrapper
-contentWrapper.appendChild(titleElement);
-contentWrapper.appendChild(subtitleElement);
-contentWrapper.appendChild(descriptionElement);
-
-// Append the image and content wrapper to the card container
-cardElement.appendChild(imageElement);
-cardElement.appendChild(contentWrapper);
-cardMainElement.appendChild(cardElement); 
-// Append the card to the container
+    // Append the card to the container
     container.appendChild(cardMainElement);
   }
 }
