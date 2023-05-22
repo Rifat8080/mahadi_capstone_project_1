@@ -4,7 +4,7 @@
   --color-primary: #ec5242;
   --color-secondary: #272a31;
   --color-third: #d3d3d3;
-  --fonts: 'lato', Arial, Helvetica, sans-serif;
+  --fonts: 'lato', arial, helvetica, sans-serif;
 }
 
 /* First Section */
@@ -60,7 +60,6 @@
   color: var(--color-third);
   font-size: 16px;
   font-family: var(--fonts);
-  margin: 0 7%;
 }
 
 .info-email {
@@ -148,12 +147,14 @@
 .winner-history {
   margin-bottom: 20%;
 }
+
 .win {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
+
 .winner-h-title {
   display: flex;
   justify-content: center;
@@ -305,7 +306,6 @@
     color: var(--color-third);
     font-size: 20px;
     font-family: var(--fonts);
-    margin: 0 7%;
   }
 
   .info-email {
@@ -382,7 +382,6 @@
     color: var(--color-third);
     font-size: 20px;
     font-family: var(--fonts);
-    margin: 0 7%;
   }
 
   .info-email {
@@ -470,12 +469,14 @@
   .winner-history {
     margin-bottom: 20%;
   }
+
   .win {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
+
   .winner-h-title {
     display: flex;
     justify-content: center;
