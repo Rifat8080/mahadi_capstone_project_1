@@ -582,12 +582,12 @@
   }
 }
 
-@media(min-width:1025px){
-  .about .header-nav-mobile{
+@media (min-width: 1025px) {
+  .about .header-nav-mobile {
     display: none;
   }
 
-   .about {
+  .about {
     background-image: url(/assets/img/main_big.png);
     background-repeat: no-repeat;
     background-size: 100%;
@@ -597,7 +597,7 @@
     height: 100%;
   }
 
-   .about-first-title {
+  .about-first-title {
     margin-top: 8%;
     font-size: 40px;
   }
