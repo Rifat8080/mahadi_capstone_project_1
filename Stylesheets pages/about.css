@@ -303,7 +303,7 @@
 
   .help-text {
     text-align: center;
-    margin-top: -3%;
+    margin-top: 0%;
     color: var(--color-third);
     font-size: 20px;
     font-family: var(--fonts);
@@ -379,7 +379,7 @@
 
   .help-text {
     text-align: center;
-    margin-top: -3%;
+    margin-top: 0%;
     color: var(--color-third);
     font-size: 20px;
     font-family: var(--fonts);
