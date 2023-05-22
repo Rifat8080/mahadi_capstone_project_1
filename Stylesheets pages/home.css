@@ -102,7 +102,6 @@ li {
   font-family: var(--fonts);
   font-weight: 1000;
   font-style: italic;
-  font-size: 25px;
   color: var(--color-secondary);
   font-size: 45px;
   margin-right: 55%;
@@ -111,7 +110,6 @@ li {
 
 .middle-title {
   font-family: var(--fonts);
-  font-size: 25px;
   margin-top: -6%;
   margin-right: 20%;
   font-weight: 800;
@@ -173,7 +171,6 @@ li {
   border: none;
   background: var(--color-primary);
   color: var(--color-third);
-  padding: 5% 5%;
   border-radius: 4px;
   font-family: var(--fonts);
   font-weight: bold;
@@ -186,6 +183,7 @@ li {
 }
 
 /* Gym main programs*/
+
 .flex-container,
 .flex-container-program {
   margin: 0;
@@ -241,13 +239,14 @@ li {
   align-items: center;
   margin-right: 9%;
 }
+
 .skill-cards {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  align-items: space-between;
   width: 100%;
 }
+
 .skill-categories {
   display: flex;
   justify-content: space-between;
@@ -353,18 +352,17 @@ li {
 }
 
 .partner-logos .p-logo {
-  width: calc(
-    (100% / 3) - 10px
-  ); /* Set the width of each item to one-third of the container minus 10px for the margins */
-
+  width: calc((100% / 3) - 10px);
   margin: 5px;
 }
 
 /* footer section works */
+
 .footer-section {
   display: flex;
   flex-direction: column;
 }
+
 .footer-section h3 {
   padding-left: 5%;
 }
@@ -376,6 +374,7 @@ li {
   align-items: center;
   margin-top: 10%;
 }
+
 .credits {
   color: var(--color-secondary);
   font-family: var(--fonts);
@@ -415,10 +414,8 @@ li {
 
   .big-title {
     font-family: var(--fonts);
-    font-style: bold;
     font-weight: 1000;
     font-style: italic;
-    font-size: 25px;
     color: var(--color-secondary);
     font-size: 45px;
     margin-right: 55%;
@@ -427,10 +424,8 @@ li {
 
   .middle-title {
     font-family: var(--fonts);
-    font-size: 25px;
     margin-top: -5%;
     margin-right: 20%;
-    font-style: bold;
     font-weight: 800;
     font-style: italic;
     font-size: 18px;
@@ -547,6 +542,7 @@ li {
   .logo {
     display: none;
   }
+
   /* Navbar work */
 
   .header-nav-mobile {
@@ -617,6 +613,7 @@ li {
   }
 
   /* First section work */
+
   .first-section {
     background-image: url(/assets/img/bg-1024.png);
     background-size: cover;
@@ -663,6 +660,7 @@ li {
   }
 
   /* Second Gym programs section */
+
   .holder {
     margin-top: 5%;
     font-size: 25px;
@@ -779,6 +777,7 @@ li {
   .logo {
     display: none;
   }
+
   /* Navbar work */
 
   .header-nav-mobile {
@@ -849,9 +848,9 @@ li {
   }
 
   /* First section work */
+
   .first-section {
     background-image: url(/assets/img/bg-1440.png);
-
     background-size: cover;
     height: 90vh;
   }
