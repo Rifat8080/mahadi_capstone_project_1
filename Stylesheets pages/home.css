@@ -8,10 +8,11 @@ body {
 :root {
   margin: 0;
   padding: 0;
+
   --color-primary: #ec5242;
   --color-secondary: #272a31;
   --color-third: #d3d3d3;
-  --fonts: 'lato', Arial, Helvetica, sans-serif;
+  --fonts: 'lato', arial, helvetica, sans-serif;
 }
 
 a {
@@ -27,7 +28,6 @@ li {
 .logo {
   text-decoration: none;
   font-family: 'lato', Arial, Helvetica, sans-serif;
-  font-style: bold;
   font-weight: 800;
   font-size: 20px;
   line-height: 100%;
@@ -42,6 +42,7 @@ li {
 .logo-desktop {
   display: none;
 }
+
 .header-nav-mobile {
   display: flex;
   flex-direction: row;
@@ -86,8 +87,7 @@ li {
   color: var(--color-secondary);
   margin-right: 45%;
   margin-top: 20%;
-  font-family: 'lato', Arial, Helvetica, sans-serif;
-  font-style: bold;
+  font-family: 'lato', arial, helvetica, sans-serif;
   font-weight: 800;
   font-style: italic;
   font-size: 18px;
@@ -100,7 +100,6 @@ li {
 
 .big-title {
   font-family: var(--fonts);
-  font-style: bold;
   font-weight: 1000;
   font-style: italic;
   font-size: 25px;
@@ -115,7 +114,6 @@ li {
   font-size: 25px;
   margin-top: -6%;
   margin-right: 20%;
-  font-style: bold;
   font-weight: 800;
   font-style: italic;
   font-size: 18px;
