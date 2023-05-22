@@ -264,3 +264,89 @@
   z-index: 1;
 
 }
+
+
+/* Responsive Breakpoint 768 */
+
+@media (min-width:768px) {
+
+    /* First Section */
+
+    .about{
+    background-image: url(/assets/img/about/bg-768.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    height: 100vh; 
+}
+
+.about-first-title{
+    
+    margin-top: 15%;
+    font-size: 20px;
+}
+
+.about-second-title{
+    
+    margin-top: 2%;
+    font-size: 25px;
+}
+
+.info-box-about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.box-brief{
+    background-color: var(--color-third);
+    padding: 5%;
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: -4%;
+    color: var(--color-secondary);
+    font-family: var(--fonts);
+    font-size: 16px;
+}
+
+.help-text{
+    text-align: center;
+    margin-top: -3%;
+    color: var(--color-third);
+    font-size: 20px;
+    font-family: var(--fonts);
+    margin:0 7%;
+}
+
+.info-email {
+    margin-bottom: 15%;
+    text-decoration: none;
+    font-family: var(--fonts) ;
+    color: var(--color-third);
+    font-size: 20px;
+}
+
+/* Second Section */
+
+.com-title-dash{
+  margin-top: 0%;
+  
+}
+
+/* Third Section */
+
+
+.winner-year{
+    margin-left: 30%;
+}
+
+.winner-place{
+     margin-left: 20%; 
+}
+
+}

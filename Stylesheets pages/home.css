@@ -246,6 +246,7 @@ font-style: bold;
     flex-direction: column;
     justify-content:space-around;
     align-items: space-between;
+    width: 100%;
 
 }
 .skill-categories {
@@ -386,4 +387,169 @@ font-style: bold;
     font-family: var(--fonts);
     padding-left: 15%;
     line-break:auto;
+}
+
+/* Responsive Breakpoints  425 px*/
+
+@media(min-width:425px) {
+
+/* Home page first Section */
+
+    .first-section{
+    background-image: url(/assets/img/Bg-425px.png);
+    background-repeat: no-repeat;
+    background-size:100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    height: 90vh; 
+
+}
+
+.small-title {
+    color: var(--color-secondary);
+    margin-right: 50%;
+    margin-top: 25%;
+    font-size: 20px;
+}
+
+.small-title-inner{
+    color: var(--color-primary);
+    font-size: 26px;
+}
+
+.big-title{
+font-family: var(--fonts);
+font-style: bold;
+  font-weight: 1000;
+  font-style: italic;
+    font-size: 25px;
+    color: var(--color-secondary);
+    font-size: 45px;
+    margin-right: 55%;
+    margin-top: -8%;
+
+}
+
+.middle-title{
+    font-family: var(--fonts);
+     font-size: 25px;
+    margin-top: -5%;
+    margin-right: 20%;
+    font-style: bold;
+  font-weight: 800;
+  font-style: italic;
+    font-size: 18px;
+    color: var(--color-primary);
+}
+
+.small-title-1{
+    color: var(--color-primary);
+    font-family: var(--fonts);
+    font-style: italic;
+    font-size: 20px;
+    margin-top: -8%;
+    margin-right: 38%
+
+}
+
+.small-title-2{
+    color: var(--color-secondary);
+    font-family: var(--fonts);
+    font-weight: 900;
+    font-style: italic;
+    font-size: 24px;
+    margin-top: -4%;
+    margin-right: 38%;
+}
+
+
+.first-section-btn{
+    display: flex;
+    flex-direction: row ;
+    margin-right: 8%;
+    margin-top: 1%;
+}
+
+.join{
+    
+    /* padding: 10% 10%;
+    border-radius: 4px;
+    width: 100%; */
+    width: 110px;
+    height: 35px;
+}
+
+.contact{
+   width: 110px;
+    height: 35px;
+}
+
+
+.first-section-btn .contact{
+    margin-left: 3%;
+}
+
+
+}
+
+
+/* Resposnsive breakpoint 768px */
+
+@media(min-width:768px){
+
+    /* Home page first Section */
+
+    .first-section{
+    background-image: url(/assets/img/bg-768px.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    height:90vh; 
+
+}
+
+  .small-title {
+    
+    margin-right: 50%;
+    margin-top: 15%;
+    margin-bottom: 8%;
+    font-size: 24px;
+}
+
+.small-title-inner{
+    font-size: 32px;
+}
+
+.big-title{
+
+    
+    font-size: 55px;
+    margin-right: 55%;
+    margin-top: -5%;
+
+}
+
+.middle-title{
+    
+    margin-top: -8%;
+    margin-right: 35%;
+    font-size: 18px;
+}
+
+.small-title-1{
+    font-size: 25px;
+    margin-top: -6%;
+    margin-right: 30%
+}
+
+.small-title-2{
+ 
+    font-size: 32px;
+    margin-top: -3%;
+    margin-right: 25%;
+}
+
 }
