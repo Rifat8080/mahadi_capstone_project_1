@@ -121,7 +121,7 @@ function handleSeeMoreClick() {
 if (cardsData.length > cardsToShowInitially) {
   const viewportWidth = Math.max(
     document.documentElement.clientWidth || 0,
-    window.innerWidth || 0
+    window.innerWidth || 0,
   );
 
   if (viewportWidth <= 768) {
@@ -136,13 +136,13 @@ if (cardsData.length > cardsToShowInitially) {
     // Create and append the remaining cards
     createAndAppendCards(cardsToShowInitially, cardsData.length);
   }
-};
+}
 
 // Function to check the viewport width and handle the 'See More' button visibility
 function checkViewportWidth() {
   const viewportWidth = Math.max(
     document.documentElement.clientWidth || 0,
-    window.innerWidth || 0
+    window.innerWidth || 0,
   );
 
   if (viewportWidth <= 768 && !container.querySelector('button')) {
@@ -160,7 +160,7 @@ function checkViewportWidth() {
       container.removeChild(seeMoreButton);
     }
   }
-};
+}
 
 // Check the viewport width when the window is resized
 window.addEventListener('resize', checkViewportWidth);
