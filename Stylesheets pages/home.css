@@ -411,10 +411,7 @@ font-style: bold;
     .first-section{
     background-image: url(/assets/img/Bg-425px.png);
     background-repeat: no-repeat;
-    background-size:100%;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
+    background-size:cover;
     height: 90vh; 
 
 }
@@ -512,17 +509,14 @@ font-style: bold;
 
 /* Resposnsive breakpoint 768px */
 
-@media(min-width:768px){
+@media(min-width:426px) and  (max-width:768px){
 
     /* Home page first Section */
 
 .first-section{
     background-image: url(/assets/img/bg-768px.png);
     background-repeat: no-repeat;
-    background-size: 100%;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
+    background-size: cover;
     height:90vh; 
 
 }
@@ -658,11 +652,7 @@ font-style: bold;
   /* First section work */
   .first-section{
  background-image: url(/assets/img/bg-1024.png);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
+    background-size: cover;
     height:90vh; 
   }
 
@@ -915,11 +905,8 @@ font-style: bold;
   /* First section work */
   .first-section{
  background-image: url(/assets/img/bg-1440.png);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
+   
+    background-size: cover;    
     height:90vh; 
   }
 

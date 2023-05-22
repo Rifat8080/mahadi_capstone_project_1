@@ -50,33 +50,12 @@ const cardsToShowIncrement = 3;
 function createAndAppendCards(startIndex, endIndex) {
   for (let i = startIndex; i < endIndex; i++) {
     const card = cardsData[i];
-
-    // // Create the card elements
-    // const cardElement = document.createElement('div');
-    // cardElement.classList.add('card');
-
-    // const imageElement = document.createElement('img');
-    // imageElement.src = card.imageSrc;
-
-    // const titleElement = document.createElement('h1');
-    // titleElement.textContent = card.title; 
-
-    // const subtitleElement = document.createElement('h3');
-    // subtitleElement.textContent = card.subtitle;
-
-    // const descriptionElement = document.createElement('p');
-    // descriptionElement.textContent = card.description;
-
-
-    // // Append the elements to the card container
-    // cardElement.appendChild(imageElement);
-    // cardElement.appendChild(titleElement);
-    // cardElement.appendChild(subtitleElement);
-    // cardElement.appendChild(descriptionElement);
-
     
     // // Append the card to the container
+     
     // container.appendChild(cardElement);
+    const cardMainElement = document.createElement('div');
+cardMainElement.classList.add('card-main');
     
     const cardElement = document.createElement('div');
 cardElement.classList.add('card');
@@ -96,6 +75,7 @@ subtitleElement.textContent = card.subtitle;
 const descriptionElement = document.createElement('p');
 descriptionElement.textContent = card.description;
 
+    
 // Append the elements to the content wrapper
 contentWrapper.appendChild(titleElement);
 contentWrapper.appendChild(subtitleElement);
@@ -104,12 +84,9 @@ contentWrapper.appendChild(descriptionElement);
 // Append the image and content wrapper to the card container
 cardElement.appendChild(imageElement);
 cardElement.appendChild(contentWrapper);
-
+cardMainElement.appendChild(cardElement); 
 // Append the card to the container
-container.appendChild(cardElement);
-
-
-   
+    container.appendChild(cardMainElement);
   }
 }
 
