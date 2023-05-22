@@ -182,7 +182,7 @@ li {
   margin-left: 10%;
 }
 
-/* Gym main programs*/
+/* Gym main programs */
 
 .flex-container,
 .flex-container-program {
@@ -382,7 +382,7 @@ li {
   line-break: auto;
 }
 
-/* Responsive Breakpoints  425 px*/
+/* Responsive Breakpoints  425 px */
 
 @media (min-width: 425px) {
   /* Navbar */
