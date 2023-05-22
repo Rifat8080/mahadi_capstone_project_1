@@ -136,7 +136,7 @@ if (cardsData.length > cardsToShowInitially) {
     // Create and append the remaining cards
     createAndAppendCards(cardsToShowInitially, cardsData.length);
   }
-}
+};
 
 // Function to check the viewport width and handle the 'See More' button visibility
 function checkViewportWidth() {
@@ -160,7 +160,7 @@ function checkViewportWidth() {
       container.removeChild(seeMoreButton);
     }
   }
-}
+};
 
 // Check the viewport width when the window is resized
 window.addEventListener('resize', checkViewportWidth);
