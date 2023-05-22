@@ -44,9 +44,11 @@
 ### Key Features <a name="key-features"></a>
 
 - **[Build with semantic HTML tags]**
-- **[CSS style is externally link with index.html file]**
+- **[CSS responsive media queries added]**
 - **[CSS flexbox module used in this project]**
 - **[.gitignore has been set up properly]**
+- **[JS functionality added properly]**
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -54,7 +56,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- https://rifat8080.github.io/Portfolio-site/
+- https://rifat8080.github.io/
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -76,7 +78,7 @@ Clone this repository to your desired folder:
 
 cd Desktop
 
-git clone https://github.com/Rifat8080/Portfolio-site
+git clone https://github.com/Rifat8080/mahadi_capstone_project_1
 
 ### Install
 
@@ -104,9 +106,9 @@ git clone https://github.com/Rifat8080/Portfolio-site
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Home will be added]**
-- [ ] **[Images will be added]**
-- [ ] **[Recent projects will be added]**
+- [ ] **[Contact will be added]**
+- [ ] **[Transitions will be added]**
+- [ ] **[Testimonials will be added]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -133,7 +135,10 @@ If you like this project let us know with a DM!
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 
-I would like to thank you all for checking out my trial project!
+I would like to thank you all for checking out my capstone project!
+This design was inspired from Cindy.
+Checkout her behance profile from the below link:
+https://www.behance.net/gallery/29845175/CC-Global-Summit-2015
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
