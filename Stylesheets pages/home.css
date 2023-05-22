@@ -97,6 +97,7 @@ li {
   justify-content: flex-start;
   margin-left: 3%;
 }
+
 .small-title {
   color: var(--color-primary);
   margin-right: 0%;
@@ -120,7 +121,6 @@ li {
   background-image: url(/assets/img/orange.jpeg);
   background-size: cover;
   background-repeat: no-repeat;
-  background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
 }
@@ -371,6 +371,7 @@ li {
     justify-content: flex-start;
     margin-left: 3%;
   }
+
   .small-title {
     color: var(--color-primary);
     margin-right: 0%;
@@ -394,7 +395,6 @@ li {
     background-image: url(/assets/img/orange.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
   }
@@ -444,6 +444,7 @@ li {
     justify-content: flex-start;
     margin-left: 3%;
   }
+
   .small-title {
     color: var(--color-primary);
     margin-right: 0%;
@@ -467,7 +468,6 @@ li {
     background-image: url(/assets/img/orange.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
   }
@@ -604,6 +604,7 @@ li {
     justify-content: flex-start;
     margin-right: 28%;
   }
+
   .small-title {
     color: var(--color-primary);
     margin-right: 0%;
@@ -627,7 +628,6 @@ li {
     background-image: url(/assets/img/orange.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
   }
@@ -869,6 +869,7 @@ li {
     justify-content: flex-start;
     margin-right: 32%;
   }
+
   .small-title {
     color: var(--color-primary);
     margin-right: 0%;
@@ -892,7 +893,6 @@ li {
     background-image: url(/assets/img/orange.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
   }
@@ -933,6 +933,7 @@ li {
   .header-nav-desktop {
     margin-left: 20%;
   }
+
   .reg-btn {
     margin-right: 20%;
   }
@@ -946,7 +947,6 @@ li {
     padding-bottom: 10px;
     padding-top: 10px;
     height: 100%;
-    line-break: none;
     font-family: var(--fonts);
     font-size: 20px;
     font-weight: 900;
@@ -958,6 +958,7 @@ li {
   }
 
   /* Second Gym programs section */
+
   .holder {
     margin-top: 1%;
     font-size: 35px;
@@ -1019,6 +1020,7 @@ li {
   .skill-title {
     font-size: 35px;
   }
+
   /* Gym partner logos */
 
   .flex-container-partner {
@@ -1125,14 +1127,14 @@ li {
     width: 40px;
   }
 
-  .topbar .topbar-content .links-topbar a {
-    text-decoration: none;
-  }
-
   .topbar .links-topbar a {
     color: #fff;
     font-family: var(--fonts);
     font-size: 18px;
     padding-left: 3%;
+  }
+
+  .topbar .topbar-content .links-topbar a {
+    text-decoration: none;
   }
 }

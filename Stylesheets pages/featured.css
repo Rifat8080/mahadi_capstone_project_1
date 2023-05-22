@@ -315,7 +315,6 @@
   }
 
   .card h3 {
-    font-size: 18px;
     color: var(--color-primary);
     font-family: var(--fonts);
     line-break: auto;
@@ -323,7 +322,6 @@
   }
 
   .card p {
-    font-size: 20px;
     color: var(--color-secondary);
     font-family: var(--fonts);
     font-size: 30px;
