@@ -704,10 +704,11 @@ font-style: bold;
 /* Second Gym programs section */
 .holder{
     margin-top: 5%;
+    font-size: 25px;
 }
 
 .line-mobile{
-    margin-top: 1%;
+    margin-top: 0%;
 }
 
 .myself-skillset{
