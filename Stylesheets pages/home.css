@@ -12,6 +12,8 @@ body {
   --color-primary: #ec5242;
   --color-secondary: #272a31;
   --color-third: #d3d3d3;
+  --color-fourth:#fff;
+  --color-fifth:rgb(54, 54, 54);
   --fonts: 'lato', arial, helvetica, sans-serif;
 }
 
@@ -27,7 +29,7 @@ li {
 
 .logo {
   text-decoration: none;
-  font-family: 'lato', Arial, Helvetica, sans-serif;
+  font-family: 'lato', arial, helvetica, sans-serif;
   font-weight: 800;
   font-size: 20px;
   line-height: 100%;
@@ -560,11 +562,11 @@ li {
   .logo-desktop {
     display: block;
     text-decoration: none;
-    font-family: 'lato', Arial, Helvetica, sans-serif;
+    font-family: 'lato', arial, helvetica, sans-serif;
     font-weight: 1000;
     font-size: 20px;
     line-height: 100%;
-    color: var(--color-primary);
+    color: var(--color-secondary);
     margin-left: 3%;
   }
 
@@ -573,7 +575,7 @@ li {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: var(--color-secondary);
+    background-color: var(--color-fourth);
     height: 70px;
   }
 
@@ -583,7 +585,7 @@ li {
 
   .header-nav-d {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     width: 100%;
   }
@@ -608,7 +610,7 @@ li {
   }
 
   .menu-list .menu-item a {
-    color: var(--color-primary);
+    color: var(--color-third);
     font-family: var(--fonts);
   }
 

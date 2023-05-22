@@ -1,11 +1,6 @@
 <a name="readme-top"></a>
 <div align="center">
-
-  <img src="![My logo](/assets/logo.png)" alt="logo" width="140"  height="auto" />
-  <br/>
-
   <h3><b>Mahadi Hasan Capstone Project Readme File</b></h3>
-
 </div>
 
 # 📗 Table of Contents
@@ -26,7 +21,6 @@
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
 
@@ -66,10 +60,6 @@
 
 To get a local copy up and running, follow these steps.
 
-### Prerequisites
-
-In order to run this project you need:
-
 ### Setup
 
 Clone this repository to your desired folder:
@@ -81,12 +71,10 @@ cd Desktop
 git clone https://github.com/Rifat8080/mahadi_capstone_project_1
 
 ### Install
-
-### Usage
-
-### Run tests
+After cloning the repository you can check my website offline. If don't want to clone the repository you can also find my live demo link.
 
 ### Deployment
+I have deployed my codebase in github page you can check out the live demo link.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -128,6 +116,7 @@ Feel free to check the [issues page](../../issues/).
 
 If you like this project let us know with a DM!
 
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
@@ -136,9 +125,8 @@ If you like this project let us know with a DM!
 
 
 I would like to thank you all for checking out my capstone project!
-This design was inspired from Cindy.
-Checkout her behance profile from the below link:
-https://www.behance.net/gallery/29845175/CC-Global-Summit-2015
+Original design idea by <a href="https://www.behance.net/gallery/29845175/CC-Global-Summit-2015"> Cindy Shin</a>
+Design inspired from <a href="https://creativecommons.org/licenses/by-nc/4.0/legalcode">Creative Commons</a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
