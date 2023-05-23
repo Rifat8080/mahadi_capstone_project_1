@@ -506,7 +506,813 @@ li {
   }
 }
 
-@media (min-width: 769px) {
+@media (min-width: 1024px) {
+  .overlay {
+    display: none;
+  }
+
+  .logo {
+    display: none;
+  }
+
+  /* Navbar work */
+
+  .header-nav-mobile {
+    display: none;
+  }
+
+  .menu-bar-mobile {
+    display: none;
+  }
+
+  .menu-bar-close {
+    display: none;
+  }
+
+  .logo-desktop {
+    display: block;
+    text-decoration: none;
+    font-family: 'lato', arial, helvetica, sans-serif;
+    font-weight: 1000;
+    font-size: 20px;
+    line-height: 100%;
+    color: var(--color-primary);
+    margin-left: 18%;
+  }
+
+  .desktop-header-nav {
+    padding: 0 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--color-fourth);
+    height: 100px;
+  }
+
+  .menu-item a {
+    text-decoration: none;
+  }
+
+  .header-nav-d {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+  }
+
+  .header-nav-desktop ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .menu-item {
+    list-style: none;
+    text-decoration: none;
+    padding: 0;
+    margin: 1em;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+    line-height: 4rem;
+  }
+
+  .menu-list .menu-item a {
+    color: var(--color-secondary);
+    font-family: var(--fonts);
+  }
+
+  .desktop-header-nav a:hover {
+    color: #ec5242;
+  }
+
+  /* First section work */
+
+  .first-section {
+    background-image: url(assets/img/main_big.png);
+    background-size: cover;
+    height: 100%;
+  }
+
+  .flex-container {
+    margin-left: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .home-heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  .small-title {
+    color: var(--color-primary);
+    margin-top: 16%;
+    font-family: 'lato', arial, helvetica, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 40px;
+    margin-bottom: 2%;
+    text-align: left;
+  }
+
+  .big-title {
+    font-family: var(--fonts);
+    font-weight: 1000;
+    font-style: normal;
+    font-size: 60px;
+    margin-right: 0%;
+    text-align: left;
+    background-image: url(assets/img/orange.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    -webkit-background-clip: text;
+    color: transparent;
+  }
+
+  .heading-box {
+    width: 50%;
+    background-color: rgb(246, 246, 246);
+    font-family: var(--fonts);
+    border: var(--color-fourth) 5px solid;
+    font-size: 20px;
+    text-align: left;
+    padding: 3%;
+    margin-top: -2%;
+    margin-left: 3%;
+  }
+
+  .end-box {
+    width: 100%;
+    margin-left: 3%;
+  }
+  .end-title {
+    font-family: var(--fonts);
+    font-weight: bold;
+    text-align: left;
+    margin-right: 60%;
+    color: var(--color-secondary);
+    opacity: 0.7;
+    font-size: 25px;
+  }
+
+  .end-p {
+    font-family: var(--fonts);
+    font-weight: bold;
+    text-align: left;
+    margin-right: 60%;
+    margin-top: -1%;
+    color: var(--color-secondary);
+    opacity: 0.7;
+    margin-bottom: 5%;
+    font-size: 20px;
+  }
+
+  .header-nav-desktop {
+    margin-left: 20%;
+  }
+
+  .reg-btn {
+    margin-right: 20%;
+  }
+
+  .reg-btn button {
+    width: 100px;
+    background: none;
+    border: var(--color-primary) 3px solid;
+    color: var(--color-primary);
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    height: 30px;
+    font-family: var(--fonts);
+    font-size: 10px;
+    font-weight: bold;
+  }
+
+  .reg-btn button:hover {
+    background-color: var(--color-primary);
+    color: var(--color-fourth);
+  }
+
+  /* Second Gym programs section */
+
+  .flex-container-program {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  }
+
+  .holder {
+    margin-top: 1%;
+    font-size: 35px;
+  }
+
+  .line-mobile {
+    margin-top: -1%;
+    width: 5%;
+  }
+
+  .promo-btn {
+    display: none;
+  }
+
+  .skill-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 1024px;
+  }
+
+  .myself-skillset {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: -12%;
+    margin-left: 5%;
+  }
+
+  .skill-cards {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 3px;
+  }
+
+  .skill-categories {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 280px;
+    width: 330px;
+    padding: 10%;
+  }
+
+  .skill-img img {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    width: 50px;
+    height: 50px;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 5%;
+  }
+
+  .skill-categories p {
+    display: flex;
+    color: var(--color-secondary);
+    font-family: var(--fonts);
+    font-size: 16px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .skill-title {
+    font-size: 25px;
+  }
+
+  .promotion a {
+    text-decoration: underline;
+    color: var(--color-fourth);
+    font-family: var(--fonts);
+    font-size: 20px;
+    text-underline-position: under;
+  }
+
+  /* Gym partner logos */
+
+  .flex-container-partner {
+    background-color: var(--color-secondary);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .partner {
+    margin-top: 4%;
+    display: flex;
+    justify-content: center;
+    color: var(--color-third);
+    font-family: var(--fonts);
+    font-size: 35px;
+  }
+
+  .line-mobile-partner {
+    content: '';
+    display: flex;
+    justify-content: center;
+    height: 2px;
+    width: 5%;
+    background-color: var(--color-primary);
+    border-radius: 9px;
+    margin-top: -1%;
+    margin-bottom: 15%;
+  }
+
+  .p-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    margin: 5%;
+  }
+
+  .partner-logos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5%;
+    margin-top: -10%;
+  }
+
+  .partner-logos .p-logo {
+    width: calc((100% / 6) - 10px);
+  }
+
+  /* footer section works */
+  .footer-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 15%;
+    height: 20%;
+  }
+
+  .footer-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin-top: 5%;
+  }
+
+  .topbar {
+    background-color: var(--color-secondary);
+    color: var(--color-fourth);
+    height: 60px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 20%;
+  }
+
+  .topbar-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 1%;
+  }
+
+  .links-topbar {
+    width: 12%;
+  }
+
+  .fb {
+    height: 25px;
+    width: 25px;
+  }
+
+  .twt {
+    height: 25px;
+    width: 25px;
+  }
+
+  .topbar .links-topbar a {
+    color: #fff;
+    font-family: var(--fonts);
+    font-size: 12px;
+    padding-left: 3%;
+  }
+
+  .topbar .topbar-content .links-topbar a {
+    text-decoration: none;
+  }
+}
+
+@media (min-width: 1440px) {
+  .overlay {
+    display: none;
+  }
+
+  .logo {
+    display: none;
+  }
+
+  /* Navbar work */
+
+  .header-nav-mobile {
+    display: none;
+  }
+
+  .menu-bar-mobile {
+    display: none;
+  }
+
+  .menu-bar-close {
+    display: none;
+  }
+
+  .logo-desktop {
+    display: block;
+    text-decoration: none;
+    font-family: 'lato', arial, helvetica, sans-serif;
+    font-weight: 1000;
+    font-size: 20px;
+    line-height: 100%;
+    color: var(--color-primary);
+    margin-left: 18%;
+  }
+
+  .desktop-header-nav {
+    padding: 0 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--color-fourth);
+    height: 100px;
+  }
+
+  .menu-item a {
+    text-decoration: none;
+  }
+
+  .header-nav-d {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+  }
+
+  .header-nav-desktop ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .menu-item {
+    list-style: none;
+    text-decoration: none;
+    padding: 0;
+    margin: 1em;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+    line-height: 4rem;
+  }
+
+  .menu-list .menu-item a {
+    color: var(--color-secondary);
+    font-family: var(--fonts);
+  }
+
+  .desktop-header-nav a:hover {
+    color: #ec5242;
+  }
+
+  /* First section work */
+
+  .first-section {
+    background-image: url(assets/img/main_big.png);
+    background-size: cover;
+    height: 100%;
+  }
+
+  .flex-container {
+    margin-left: 18%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .home-heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  .small-title {
+    color: var(--color-primary);
+    margin-top: 16%;
+    font-family: 'lato', arial, helvetica, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 40px;
+    margin-bottom: 2%;
+    text-align: left;
+  }
+
+  .big-title {
+    font-family: var(--fonts);
+    font-weight: 1000;
+    font-style: normal;
+    font-size: 60px;
+    margin-right: 0%;
+    text-align: left;
+    background-image: url(assets/img/orange.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    -webkit-background-clip: text;
+    color: transparent;
+  }
+
+  .heading-box {
+    width: 50%;
+    background-color: rgb(246, 246, 246);
+    font-family: var(--fonts);
+    border: var(--color-fourth) 5px solid;
+    font-size: 20px;
+    text-align: left;
+    padding: 3%;
+    margin-top: -2%;
+    margin-left: 3%;
+  }
+
+  .end-box {
+    width: 100%;
+    margin-left: 3%;
+  }
+  .end-title {
+    font-family: var(--fonts);
+    font-weight: bold;
+    text-align: left;
+    margin-right: 60%;
+    color: var(--color-secondary);
+    opacity: 0.7;
+    font-size: 25px;
+  }
+
+  .end-p {
+    font-family: var(--fonts);
+    font-weight: bold;
+    text-align: left;
+    margin-right: 60%;
+    margin-top: -1%;
+    color: var(--color-secondary);
+    opacity: 0.7;
+    margin-bottom: 5%;
+    font-size: 20px;
+  }
+
+  .header-nav-desktop {
+    margin-left: 20%;
+  }
+
+  .reg-btn {
+    margin-right: 20%;
+  }
+
+  .reg-btn button {
+    width: 100px;
+    background: none;
+    border: var(--color-primary) 3px solid;
+    color: var(--color-primary);
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    height: 30px;
+    font-family: var(--fonts);
+    font-size: 10px;
+    font-weight: bold;
+  }
+
+  .reg-btn button:hover {
+    background-color: var(--color-primary);
+    color: var(--color-fourth);
+  }
+
+  /* Second Gym programs section */
+
+  .flex-container-program {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  }
+
+  .holder {
+    margin-top: 1%;
+    font-size: 35px;
+  }
+
+  .line-mobile {
+    margin-top: -1%;
+    width: 5%;
+  }
+
+  .promo-btn {
+    display: none;
+  }
+
+  .skill-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 1024px;
+  }
+
+  .myself-skillset {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: -12%;
+    margin-left: 5%;
+  }
+
+  .skill-cards {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+  }
+
+  .skill-categories {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 320px;
+    width: 400px;
+    padding: 10%;
+  }
+
+  .skill-img img {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    width: 50px;
+    height: 50px;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 5%;
+  }
+
+  .skill-categories p {
+    display: flex;
+    color: var(--color-secondary);
+    font-family: var(--fonts);
+    font-size: 16px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .skill-title {
+    font-size: 25px;
+  }
+
+  .promotion a {
+    text-decoration: underline;
+    color: var(--color-fourth);
+    font-family: var(--fonts);
+    font-size: 20px;
+    text-underline-position: under;
+  }
+
+  /* Gym partner logos */
+
+  .flex-container-partner {
+    background-color: var(--color-secondary);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .partner {
+    margin-top: 4%;
+    display: flex;
+    justify-content: center;
+    color: var(--color-third);
+    font-family: var(--fonts);
+    font-size: 35px;
+  }
+
+  .line-mobile-partner {
+    content: '';
+    display: flex;
+    justify-content: center;
+    height: 2px;
+    width: 5%;
+    background-color: var(--color-primary);
+    border-radius: 9px;
+    margin-top: -1%;
+    margin-bottom: 15%;
+  }
+
+  .p-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    margin: 5%;
+  }
+
+  .partner-logos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5%;
+    margin-top: -10%;
+  }
+
+  .partner-logos .p-logo {
+    width: calc((100% / 6) - 10px);
+  }
+
+  /* footer section works */
+  .footer-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 15%;
+    height: 20%;
+  }
+
+  .footer-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin-top: 5%;
+  }
+
+  .topbar {
+    background-color: var(--color-secondary);
+    color: var(--color-fourth);
+    height: 60px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 20%;
+  }
+
+  .topbar-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 1%;
+  }
+
+  .links-topbar {
+    width: 12%;
+  }
+
+  .fb {
+    height: 25px;
+    width: 25px;
+  }
+
+  .twt {
+    height: 25px;
+    width: 25px;
+  }
+
+  .topbar .links-topbar a {
+    color: #fff;
+    font-family: var(--fonts);
+    font-size: 12px;
+    padding-left: 3%;
+  }
+
+  .topbar .topbar-content .links-topbar a {
+    text-decoration: none;
+  }
+}
+
+@media (min-width: 2560px) {
   .overlay {
     display: none;
   }
