@@ -121,7 +121,7 @@ function handleSeeMoreClick() {
 if (cardsData.length > cardsToShowInitially) {
   const viewportWidth = Math.max(
     document.documentElement.clientWidth || 0,
-    window.innerWidth || 0
+    window.innerWidth || 0,
   );
 
   if (viewportWidth <= 768) {
@@ -142,7 +142,7 @@ if (cardsData.length > cardsToShowInitially) {
 function checkViewportWidth() {
   const viewportWidth = Math.max(
     document.documentElement.clientWidth || 0,
-    window.innerWidth || 0
+    window.innerWidth || 0,
   );
 
   if (viewportWidth <= 768 && !container.querySelector('button')) {
