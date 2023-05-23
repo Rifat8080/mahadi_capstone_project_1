@@ -44,12 +44,12 @@
 }
 
 .box-brief {
-  background-color: var(--color-third);
+  background-color: white;
+  border: lightgrey 1px solid;
   padding: 5%;
   text-align: center;
   margin-left: 5%;
   margin-right: 5%;
-  margin-top: -4%;
   color: var(--color-secondary);
   font-family: var(--fonts);
   font-size: 16px;
@@ -121,8 +121,8 @@
 
 .com-winner {
   border: 1px solid var(--color-third);
-  height: 80%;
-  width: 50%;
+  height: 50%;
+  width: 65%;
   display: flex;
   justify-content: center;
 }
@@ -206,10 +206,10 @@
 
 .winner-year {
   text-align: center;
-  margin-top: -50%;
+  margin-top: -40%;
   margin-left: 32%;
   font-family: var(--fonts);
-  color: var(--color-third);
+  color: white;
   position: absolute;
   z-index: 2;
   font-size: 18px;
@@ -221,10 +221,10 @@
 .winner-place {
   text-align: center;
   font-family: var(--fonts);
-  color: var(--color-third);
+  color: white;
   position: absolute;
   z-index: 2;
-  margin-top: -30%;
+  margin-top: -25%;
   margin-left: 15%;
   line-break: auto;
   display: flex;
@@ -273,7 +273,7 @@
   }
 
   .about-first-title {
-    margin-top: 15%;
+    margin-top: 2%;
     font-size: 20px;
   }
 
@@ -291,7 +291,8 @@
   }
 
   .box-brief {
-    background-color: var(--color-third);
+    background-color: white;
+    border: lightgrey 1px solid;
     padding: 5%;
     text-align: center;
     margin-left: 5%;
@@ -327,262 +328,19 @@
   /* Third Section */
 
   .winner-year {
-    margin-left: 30%;
+    margin-left: 34%;
+    font-size: 35px;
+    margin-top: -35%;
   }
 
   .winner-place {
-    margin-left: 20%;
-  }
-}
-
-@media (min-width: 769px) and (max-width: 1024px) {
-  /* First Section */
-
-  .about {
-    background-image: url(/assets/img/main_big.png);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-  }
-
-  .about-first-title {
-    margin-top: 8%;
-    font-size: 20px;
-  }
-
-  .about-second-title {
-    margin-top: 2%;
-    font-size: 25px;
-  }
-
-  .info-box-about {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 5%;
-  }
-
-  .box-brief {
-    background-color: var(--color-third);
-    padding: 5%;
-    text-align: center;
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-top: -4%;
-    color: var(--color-secondary);
-    font-family: var(--fonts);
-    font-size: 16px;
-  }
-
-  .help-text {
-    text-align: center;
-    margin-top: 0%;
-    color: var(--color-secondary);
-    font-size: 20px;
-    font-family: var(--fonts);
-  }
-
-  .info-email {
-    margin-bottom: 15%;
-    text-decoration: none;
-    font-family: var(--fonts);
-    color: var(--color-secondary);
-    font-size: 20px;
-  }
-
-  /* Second section */
-
-  .about-second {
-    background-color: white;
-  }
-
-  .about-second-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .com-title {
-    display: flex;
-    justify-content: center;
-    color: var(--color-secondary);
-    font-family: var(--fonts);
-    font-weight: bold;
-    font-size: 25px;
-    text-align: center;
-    margin-top: 1%;
-  }
-
-  .com-title-dash {
-    content: '';
-    display: flex;
-    justify-content: center;
-    height: 2px;
-    width: 70px;
-    background-color: var(--color-primary);
-    border-radius: 9px;
-    margin-top: 1%;
-    margin-bottom: 3%;
-  }
-
-  .com-description {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    font-family: var(--fonts);
-    color: var(--color-secondary);
-    font-size: 16px;
-    padding: 0 5%;
-  }
-
-  .com-winner {
-    border: 1px solid var(--color-third);
-    height: 80%;
-    width: 30%;
-    display: flex;
-    justify-content: center;
-  }
-
-  .com-winner img {
-    padding: 5% 0;
-    width: 100px;
-    height: 100px;
-  }
-
-  .second-end {
-    content: '';
-    display: flex;
-    justify-content: center;
-    height: 1px;
-    width: 100%;
-    background-color: var(--color-third);
-    border-radius: 9px;
-    margin-top: 10%;
-    margin-bottom: 3%;
-  }
-
-  /* Winner history section */
-  .winner-history {
-    margin-bottom: 20%;
-  }
-
-  .win {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .winner-h-title {
-    display: flex;
-    justify-content: center;
-    color: var(--color-secondary);
-    font-family: var(--fonts);
-    font-weight: bold;
-    font-size: 25px;
-    text-align: center;
-    margin-top: 2%;
-  }
-
-  .winner-dash {
-    content: '';
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 2px;
-    width: 70px;
-    background-color: var(--color-primary);
-    border-radius: 9px;
-    margin-bottom: 3%;
-  }
-
-  .winner-des {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    font-family: var(--fonts);
-    font-size: 16px;
-    padding: 0 5%;
-    color: var(--color-secondary);
-  }
-
-  .winner-list {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    margin-top: 0%;
-  }
-
-  .winner-specs {
-    padding: 0 2%;
-    margin-top: 5%;
-  }
-
-  .winner-year {
-    text-align: center;
-    margin-top: -40%;
-    margin-left: 20%;
-    font-family: var(--fonts);
-    color: var(--color-third);
-    position: absolute;
-    z-index: 2;
+    margin-left: 15%;
+    margin-top: -20%;
     font-size: 30px;
-    font-weight: 900;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .winner-place {
-    text-align: center;
-    font-family: var(--fonts);
-    color: var(--color-third);
-    position: absolute;
-    z-index: 2;
-    margin-top: -30%;
-    margin-left: 8%;
-    line-break: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 25px;
-  }
-
-  .winner-images {
-    width: 100%;
-    height: 100%;
-    background-position: center;
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .overlay-winner {
-    position: relative;
-  }
-
-  .overlay-winner::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(236, 82, 66, 0.5); /* Adjust the opacity as needed */
-    z-index: 1;
   }
 }
 
-@media (min-width: 1025px) {
+@media (min-width: 769px) {
   .about .header-nav-mobile {
     display: none;
   }
@@ -617,12 +375,12 @@
   }
 
   .box-brief {
-    background-color: var(--color-third);
+    background-color: white;
+    border: lightgrey 3px solid;
     padding: 5%;
     text-align: center;
     margin-left: 5%;
     margin-right: 5%;
-    margin-top: -4%;
     color: var(--color-secondary);
     font-family: var(--fonts);
     font-size: 25px;
@@ -673,7 +431,7 @@
     display: flex;
     justify-content: center;
     height: 2px;
-    width: 10%;
+    width: 5%;
     background-color: var(--color-primary);
     border-radius: 9px;
     margin-top: 1%;
@@ -694,7 +452,7 @@
   .com-winner {
     border: 1px solid var(--color-third);
     height: 100%;
-    width: 30%;
+    width: 45%;
     display: flex;
     justify-content: center;
   }
@@ -746,7 +504,7 @@
     justify-content: center;
     align-items: center;
     height: 2px;
-    width: 10%;
+    width: 5%;
     background-color: var(--color-primary);
     border-radius: 9px;
     margin-bottom: 3%;
@@ -778,8 +536,8 @@
 
   .winner-year {
     text-align: center;
-    margin-top: -20%;
-    margin-left: 9%;
+    margin-top: -16%;
+    margin-left: 17%;
     font-family: var(--fonts);
     color: #fff;
     position: absolute;
@@ -797,13 +555,13 @@
     color: #fff;
     position: absolute;
     z-index: 2;
-    margin-top: -15%;
-    margin-left: 4%;
+    margin-top: -10%;
+    margin-left: 8%;
     line-break: auto;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 25px;
+    font-size: 40px;
   }
 
   .winner-images {
