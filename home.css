@@ -852,19 +852,19 @@ li {
   }
 
   .fb {
-    height: 40px;
-    width: 40px;
+    height: 25px;
+    width: 25px;
   }
 
   .twt {
-    height: 40px;
-    width: 40px;
+    height: 25px;
+    width: 25px;
   }
 
   .topbar .links-topbar a {
     color: #fff;
     font-family: var(--fonts);
-    font-size: 18px;
+    font-size: 12px;
     padding-left: 3%;
   }
 
