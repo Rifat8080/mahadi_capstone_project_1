@@ -572,7 +572,7 @@ li {
     text-decoration: none;
     padding: 0;
     margin: 1em;
-    font-size: 16px;
+    font-size: 12px;
     font-weight: bold;
     cursor: pointer;
     text-align: center;
@@ -674,7 +674,7 @@ li {
   .reg-btn button {
     width: 100%;
     background: none;
-    border: var(--color-primary) 5px solid;
+    border: var(--color-primary) 3px solid;
     color: var(--color-primary);
     padding-left: 40px;
     padding-right: 40px;
@@ -682,7 +682,7 @@ li {
     padding-top: 10px;
     height: 100%;
     font-family: var(--fonts);
-    font-size: 16px;
+    font-size: 12px;
     font-weight: bold;
   }
 
