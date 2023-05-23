@@ -1,42 +1,42 @@
 // Data for the cards
 const cardsData = [
   {
-    imageSrc: '/assets/Featured/trainer1.png',
+    imageSrc: 'assets/Featured/trainer1.png',
     title: 'Yochai Benkler',
     subtitle: 'GMM Bodybuilding Competition Winner of 2019',
     description:
       'This is the description for Card 1. Lorem Ipsum is simply dummy text of the printing and typesetting.',
   },
   {
-    imageSrc: '/assets/Featured/Trainer 2.png',
+    imageSrc: 'assets/Featured/Trainer 2.png',
     title: 'Loki Herman',
     subtitle: 'London Weight Lifting Championship Winner of 2017',
     description:
       'This is the description for Card 2. Lorem Ipsum is simply dummy text of the printing and typesetting.',
   },
   {
-    imageSrc: '/assets/Featured/trainer 3.png',
+    imageSrc: 'assets/Featured/trainer 3.png',
     title: 'Ryan Merkley',
     subtitle: 'Warsaw Weight Lifting Championship Winner of 2017',
     description:
       'This is the description for Card 3. Lorem Ipsum is simply dummy text of the printing and typesetting.',
   },
   {
-    imageSrc: '/assets/Featured/trainer 4.png',
+    imageSrc: 'assets/Featured/trainer 4.png',
     title: 'Kilnam Chon',
     subtitle: 'Korea Weight Lifting Championship Winner of 2017',
     description:
       'This is the description for Card 4. Lorem Ipsum is simply dummy text of the printing and typesetting.',
   },
   {
-    imageSrc: '/assets/Featured/trainer 5.png',
+    imageSrc: 'assets/Featured/trainer 5.png',
     title: 'Robert Jules',
     subtitle: 'Germany Weight Lifting Championship Winner of 2017',
     description:
       'This is the description for Card 1. Lorem Ipsum is simply dummy text of the printing and typesetting.',
   },
   {
-    imageSrc: '/assets/Featured/trainer 6.png',
+    imageSrc: 'assets/Featured/trainer 6.png',
     title: 'James Havard',
     subtitle: 'Singapore Weight Lifting Championship Winner of 2017',
     description:
