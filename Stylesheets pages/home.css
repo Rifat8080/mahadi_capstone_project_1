@@ -1,0 +1,1140 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  padding-bottom: 2em;
+}
+
+:root {
+  margin: 0;
+  padding: 0;
+
+  --color-primary: #ec5242;
+  --color-secondary: #272a31;
+  --color-third: #d3d3d3;
+  --color-fourth: #fff;
+  --color-fifth: rgb(54, 54, 54);
+  --fonts: 'lato', arial, helvetica, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+/* Header navigation section design */
+.topbar {
+  display: none;
+}
+
+.logo {
+  text-decoration: none;
+  font-family: 'lato', arial, helvetica, sans-serif;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 100%;
+  color: var(--color-primary);
+  margin-left: 3%;
+}
+
+.logo h3 {
+  font-weight: bolder;
+}
+
+.logo-desktop {
+  display: none;
+}
+
+.header-nav-mobile {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu-bar-mobile {
+  margin-top: 2%;
+}
+
+.menu-bar-close {
+  margin-top: 2%;
+}
+
+.menu-list-mobile {
+  display: none;
+}
+
+.desktop-header-nav {
+  display: none;
+}
+
+/* Styling first section */
+.first-section {
+  background-image: url(/assets/img/mobile_intro_bg.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+}
+
+.home-heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-left: 3%;
+}
+
+.small-title {
+  color: var(--color-primary);
+  margin-right: 0%;
+  margin-top: 20%;
+  font-family: 'lato', arial, helvetica, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 18px;
+  margin-bottom: 2%;
+  text-align: left;
+}
+
+.big-title {
+  font-family: var(--fonts);
+  font-weight: 1000;
+  font-style: normal;
+  font-size: 30px;
+  margin-right: 0%;
+  margin-top: 0;
+  text-align: left;
+  background-image: url(/assets/img/orange.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.heading-box {
+  width: 90%;
+  background-color: rgba(211, 211, 211, 0.459);
+  font-family: var(--fonts);
+  border: var(--color-fourth) 3px solid;
+  font-size: 14px;
+  text-align: left;
+  padding: 3%;
+}
+
+.end-title {
+  font-family: var(--fonts);
+  font-weight: bold;
+  text-align: left;
+  margin-right: 30%;
+  color: var(--color-secondary);
+  opacity: 0.7;
+}
+
+.end-p {
+  font-family: var(--fonts);
+  font-weight: bold;
+  text-align: left;
+  margin-right: 15%;
+  margin-top: -1%;
+  color: var(--color-secondary);
+  opacity: 0.7;
+}
+
+/* Gym main programs */
+
+.flex-container,
+.flex-container-program {
+  margin: 0;
+  padding: 0;
+}
+
+.flex-container-program {
+  background-color: var(--color-secondary);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.holder {
+  display: flex;
+  justify-content: center;
+  color: var(--color-third);
+  font-family: var(--fonts);
+  font-size: 18px;
+}
+
+.holder h2 {
+  margin-top: 18%;
+}
+
+.line-mobile {
+  content: '';
+  display: flex;
+  justify-content: center;
+  height: 2px;
+  width: 70px;
+  background-color: var(--color-primary);
+  border-radius: 9px;
+  margin-top: -2%;
+  margin-bottom: 15%;
+}
+
+.skill-img img {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  width: 50px;
+  height: 50px;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+.myself-skillset {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 9%;
+}
+
+.skill-cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.skill-categories {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2em;
+  height: 120px;
+  width: 100%;
+  background: var(--color-third);
+  border-radius: 5px;
+  transition: box-shadow 0.4s ease-out;
+}
+
+.skill-title {
+  color: var(--color-primary);
+  font-family: var(--fonts);
+  font-size: 14px;
+  line-break: auto;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+.skill-categories p {
+  display: flex;
+  color: var(--color-secondary);
+  font-family: var(--fonts);
+  font-size: 12px;
+  width: 100%;
+}
+
+.promotion {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 7%;
+}
+
+.promotion h2 {
+  text-align: center;
+  color: var(--color-primary);
+  font-family: var(--fonts);
+}
+
+.promo-btn {
+  background-color: var(--color-primary);
+  color: var(--color-third);
+  font-family: var(--fonts);
+  padding: 20px 20px;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: medium;
+}
+
+/* Gym partner logos */
+
+.flex-container-partner {
+  background-color: var(--color-secondary);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.partner {
+  margin-top: 20%;
+  display: flex;
+  justify-content: center;
+  color: var(--color-third);
+  font-family: var(--fonts);
+  font-size: 18px;
+}
+
+.line-mobile-partner {
+  content: '';
+  display: flex;
+  justify-content: center;
+  height: 2px;
+  width: 50px;
+  background-color: var(--color-primary);
+  border-radius: 9px;
+  margin-top: -2%;
+  margin-bottom: 15%;
+}
+
+.p-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  margin: 10%;
+}
+
+.partner-logos {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20%;
+}
+
+.partner-logos .p-logo {
+  width: calc((100% / 3) - 10px);
+  margin: 5px;
+}
+
+/* footer section works */
+
+.footer-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-section h3 {
+  padding-left: 5%;
+}
+
+.footer-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10%;
+}
+
+.credits {
+  color: var(--color-secondary);
+  font-family: var(--fonts);
+  padding-left: 15%;
+  line-break: auto;
+}
+
+/* Responsive Breakpoints  425 px */
+
+@media (min-width: 425px) {
+  /* Navbar */
+
+  .desktop-header-nav {
+    display: none;
+  }
+
+  /* Home page first Section */
+
+  .home-heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 3%;
+  }
+
+  .small-title {
+    color: var(--color-primary);
+    margin-right: 0%;
+    margin-top: 20%;
+    font-family: 'lato', arial, helvetica, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 18px;
+    margin-bottom: 2%;
+    text-align: left;
+  }
+
+  .big-title {
+    font-family: var(--fonts);
+    font-weight: 1000;
+    font-style: normal;
+    font-size: 30px;
+    margin-right: 0%;
+    margin-top: 0;
+    text-align: left;
+    background-image: url(/assets/img/orange.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    -webkit-background-clip: text;
+    color: transparent;
+  }
+
+  .heading-box {
+    width: 90%;
+    background-color: rgba(211, 211, 211, 0.459);
+    font-family: var(--fonts);
+    border: var(--color-fourth) 3px solid;
+    font-size: 14px;
+    text-align: left;
+    padding: 3%;
+  }
+
+  .end-title {
+    font-family: var(--fonts);
+    font-weight: bold;
+    text-align: left;
+    margin-right: 30%;
+    color: var(--color-secondary);
+    opacity: 0.7;
+  }
+
+  .end-p {
+    font-family: var(--fonts);
+    font-weight: bold;
+    text-align: left;
+    margin-right: 19%;
+    margin-top: -1%;
+    color: var(--color-secondary);
+    opacity: 0.7;
+  }
+
+  .logo-desktop {
+    display: none;
+  }
+}
+
+/* Resposnsive breakpoint 768px */
+
+@media (min-width: 426px) and (max-width: 768px) {
+  /* Home page first Section */
+
+  .home-heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 3%;
+  }
+
+  .small-title {
+    color: var(--color-primary);
+    margin-right: 0%;
+    margin-top: 20%;
+    font-family: 'lato', arial, helvetica, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 18px;
+    margin-bottom: 2%;
+    text-align: left;
+  }
+
+  .big-title {
+    font-family: var(--fonts);
+    font-weight: 1000;
+    font-style: normal;
+    font-size: 30px;
+    margin-right: 0%;
+    margin-top: 0;
+    text-align: left;
+    background-image: url(/assets/img/orange.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    -webkit-background-clip: text;
+    color: transparent;
+  }
+
+  .heading-box {
+    width: 60%;
+    background-color: rgba(211, 211, 211, 0.459);
+    font-family: var(--fonts);
+    border: var(--color-fourth) 3px solid;
+    font-size: 14px;
+    text-align: left;
+    padding: 3%;
+  }
+
+  .end-title {
+    font-family: var(--fonts);
+    font-weight: bold;
+    text-align: left;
+    margin-right: 30%;
+    color: var(--color-secondary);
+    opacity: 0.7;
+  }
+
+  .end-p {
+    font-family: var(--fonts);
+    font-weight: bold;
+    text-align: left;
+    margin-right: 25%;
+    margin-top: -1%;
+    color: var(--color-secondary);
+    opacity: 0.7;
+  }
+
+  .logo-desktop {
+    display: none;
+  }
+}
+
+/* Responsive breakpoint desktop 1024 */
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .overlay {
+    display: none;
+  }
+
+  .logo {
+    display: none;
+  }
+
+  /* Navbar work */
+
+  .first-section .header-nav-mobile {
+    display: none;
+  }
+
+  .menu-bar-mobile {
+    display: none;
+  }
+
+  .menu-bar-close {
+    display: none;
+  }
+
+  .logo-desktop {
+    display: block;
+    text-decoration: none;
+    font-family: 'lato', arial, helvetica, sans-serif;
+    font-weight: 1000;
+    font-size: 20px;
+    line-height: 100%;
+    color: var(--color-secondary);
+    margin-left: 3%;
+  }
+
+  .desktop-header-nav {
+    padding: 0 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--color-fourth);
+    height: 70px;
+  }
+
+  .menu-item a {
+    text-decoration: none;
+  }
+
+  .header-nav-d {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+
+  .header-nav-desktop ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .menu-item {
+    list-style: none;
+    text-decoration: none;
+    padding: 0;
+    margin: 1em;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+    line-height: 4rem;
+  }
+
+  .menu-list .menu-item a {
+    color: var(--color-secondary);
+    font-family: var(--fonts);
+  }
+
+  .desktop-header-nav a:hover {
+    color: #ec5242;
+  }
+
+  /* First section work */
+
+  .first-section {
+    background-image: url(/assets/img/main_big.png);
+    background-size: cover;
+    height: 100%;
+  }
+
+  .home-heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-right: 28%;
+  }
+
+  .small-title {
+    color: var(--color-primary);
+    margin-right: 0%;
+    margin-top: 16%;
+    font-family: 'lato', arial, helvetica, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 25px;
+    margin-bottom: 2%;
+    text-align: left;
+  }
+
+  .big-title {
+    font-family: var(--fonts);
+    font-weight: 1000;
+    font-style: normal;
+    font-size: 35px;
+    margin-right: 0%;
+    margin-top: 0;
+    text-align: left;
+    background-image: url(/assets/img/orange.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    -webkit-background-clip: text;
+    color: transparent;
+  }
+
+  .heading-box {
+    width: 50%;
+    background-color: rgba(211, 211, 211, 0.459);
+    font-family: var(--fonts);
+    border: var(--color-fourth) 3px solid;
+    font-size: 16px;
+    text-align: left;
+    padding: 3%;
+    margin-right: 30%;
+  }
+
+  .end-title {
+    font-family: var(--fonts);
+    font-weight: bold;
+    text-align: left;
+    margin-right: 64%;
+    color: var(--color-secondary);
+    opacity: 0.7;
+  }
+
+  .end-p {
+    font-family: var(--fonts);
+    font-weight: bold;
+    text-align: left;
+    margin-right: 59%;
+    margin-top: -1%;
+    color: var(--color-secondary);
+    opacity: 0.7;
+    margin-bottom: 5%;
+  }
+
+  /* Second Gym programs section */
+
+  .holder {
+    margin-top: 5%;
+    font-size: 25px;
+  }
+
+  .line-mobile {
+    margin-top: 0%;
+  }
+
+  .myself-skillset {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: -10%;
+    margin-left: 7%;
+  }
+
+  .skill-cards {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0.5%;
+  }
+
+  .skill-categories {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    padding: 10%;
+  }
+
+  /* Gym partner logos */
+
+  .flex-container-partner {
+    background-color: var(--color-secondary);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .partner {
+    margin-top: 4%;
+    display: flex;
+    justify-content: center;
+    color: var(--color-third);
+    font-family: var(--fonts);
+    font-size: 25px;
+  }
+
+  .line-mobile-partner {
+    content: '';
+    display: flex;
+    justify-content: center;
+    height: 2px;
+    width: 50px;
+    background-color: var(--color-primary);
+    border-radius: 9px;
+    margin-top: -1%;
+    margin-bottom: 15%;
+  }
+
+  .p-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    margin: 5%;
+  }
+
+  .partner-logos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5%;
+    margin-top: -10%;
+  }
+
+  .partner-logos .p-logo {
+    width: calc((100% / 6) - 10px);
+  }
+
+  /* footer section works */
+  .footer-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 20%;
+  }
+
+  .footer-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin-top: 5%;
+  }
+}
+
+@media (min-width: 1025px) {
+  .overlay {
+    display: none;
+  }
+
+  .logo {
+    display: none;
+  }
+
+  /* Navbar work */
+
+  .header-nav-mobile {
+    display: none;
+  }
+
+  .menu-bar-mobile {
+    display: none;
+  }
+
+  .menu-bar-close {
+    display: none;
+  }
+
+  .logo-desktop {
+    display: block;
+    text-decoration: none;
+    font-family: 'lato', arial, helvetica, sans-serif;
+    font-weight: 1000;
+    font-size: 20px;
+    line-height: 100%;
+    color: var(--color-primary);
+    margin-left: 18%;
+  }
+
+  .desktop-header-nav {
+    padding: 0 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--color-fourth);
+    height: 100px;
+  }
+
+  .menu-item a {
+    text-decoration: none;
+  }
+
+  .header-nav-d {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+  }
+
+  .header-nav-desktop ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .menu-item {
+    list-style: none;
+    text-decoration: none;
+    padding: 0;
+    margin: 1em;
+    font-size: 23px;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+    line-height: 4rem;
+  }
+
+  .menu-list .menu-item a {
+    color: var(--color-secondary);
+    font-family: var(--fonts);
+  }
+
+  .desktop-header-nav a:hover {
+    color: #ec5242;
+  }
+
+  /* First section work */
+
+  .first-section {
+    background-image: url(/assets/img/main_big.png);
+    background-size: cover;
+    height: 100%;
+  }
+
+  .home-heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-right: 32%;
+  }
+
+  .small-title {
+    color: var(--color-primary);
+    margin-right: 0%;
+    margin-top: 16%;
+    font-family: 'lato', arial, helvetica, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 45px;
+    margin-bottom: 2%;
+    text-align: left;
+  }
+
+  .big-title {
+    font-family: var(--fonts);
+    font-weight: 1000;
+    font-style: normal;
+    font-size: 65px;
+    margin-right: 0%;
+    margin-top: 0;
+    text-align: left;
+    background-image: url(/assets/img/orange.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    -webkit-background-clip: text;
+    color: transparent;
+  }
+
+  .heading-box {
+    width: 50%;
+    background-color: rgba(211, 211, 211, 0.459);
+    font-family: var(--fonts);
+    border: var(--color-fourth) 3px solid;
+    font-size: 26px;
+    text-align: left;
+    padding: 3%;
+    margin-right: 30%;
+  }
+
+  .end-title {
+    font-family: var(--fonts);
+    font-weight: bold;
+    text-align: left;
+    margin-right: 55%;
+    color: var(--color-secondary);
+    opacity: 0.7;
+    font-size: 50px;
+  }
+
+  .end-p {
+    font-family: var(--fonts);
+    font-weight: bold;
+    text-align: left;
+    margin-right: 55%;
+    margin-top: -1%;
+    color: var(--color-secondary);
+    opacity: 0.7;
+    margin-bottom: 5%;
+    font-size: 35px;
+  }
+
+  .header-nav-desktop {
+    margin-left: 20%;
+  }
+
+  .reg-btn {
+    margin-right: 20%;
+  }
+
+  .reg-btn button {
+    width: 100%;
+    background: none;
+    border: var(--color-primary) 3px solid;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    height: 100%;
+    font-family: var(--fonts);
+    font-size: 20px;
+    font-weight: 900;
+  }
+
+  .reg-btn button:hover {
+    background-color: var(--color-primary);
+    color: var(--color-fourth);
+  }
+
+  /* Second Gym programs section */
+
+  .holder {
+    margin-top: 1%;
+    font-size: 35px;
+  }
+
+  .line-mobile {
+    margin-top: -1%;
+    width: 10%;
+  }
+
+  .myself-skillset {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: -12%;
+    margin-left: 7%;
+    width: 100%;
+    height: 100%;
+  }
+
+  .skill-cards {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5%;
+  }
+
+  .skill-categories {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    padding: 10%;
+  }
+
+  .skill-img img {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    width: 100px;
+    height: 100px;
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+
+  .skill-categories p {
+    display: flex;
+    color: var(--color-secondary);
+    font-family: var(--fonts);
+    font-size: 25px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .skill-title {
+    font-size: 35px;
+  }
+
+  /* Gym partner logos */
+
+  .flex-container-partner {
+    background-color: var(--color-secondary);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .partner {
+    margin-top: 4%;
+    display: flex;
+    justify-content: center;
+    color: var(--color-third);
+    font-family: var(--fonts);
+    font-size: 35px;
+  }
+
+  .line-mobile-partner {
+    content: '';
+    display: flex;
+    justify-content: center;
+    height: 2px;
+    width: 5%;
+    background-color: var(--color-primary);
+    border-radius: 9px;
+    margin-top: -1%;
+    margin-bottom: 15%;
+  }
+
+  .p-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    margin: 5%;
+  }
+
+  .partner-logos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5%;
+    margin-top: -10%;
+  }
+
+  .partner-logos .p-logo {
+    width: calc((100% / 6) - 10px);
+  }
+
+  /* footer section works */
+  .footer-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 15%;
+    height: 20%;
+  }
+
+  .footer-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin-top: 5%;
+  }
+
+  .topbar {
+    background-color: var(--color-secondary);
+    color: var(--color-fourth);
+    height: 60px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 20%;
+  }
+
+  .topbar-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 1%;
+  }
+
+  .links-topbar {
+    width: 12%;
+  }
+
+  .fb {
+    height: 40px;
+    width: 40px;
+  }
+
+  .twt {
+    height: 40px;
+    width: 40px;
+  }
+
+  .topbar .links-topbar a {
+    color: #fff;
+    font-family: var(--fonts);
+    font-size: 18px;
+    padding-left: 3%;
+  }
+
+  .topbar .topbar-content .links-topbar a {
+    text-decoration: none;
+  }
+}
