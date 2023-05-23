@@ -455,6 +455,7 @@
     width: 65%;
     display: flex;
     justify-content: center;
+    margin-top: 5%;
   }
 
   .com-winner img {
