@@ -10,7 +10,7 @@
 
 /* First Section */
 .about {
-  background-image: url(/assets/img/mobile_intro_bg.png);
+  background-image: url(assets/img/mobile_intro_bg.png);
   background-repeat: no-repeat;
   background-size: 100%;
   overflow: hidden;
@@ -263,7 +263,7 @@
   /* First Section */
 
   .about {
-    background-image: url(/assets/img/mobile_intro_bg.png);
+    background-image: url(assets/img/mobile_intro_bg.png);
     background-repeat: no-repeat;
     background-size: 100%;
     overflow: hidden;
@@ -346,7 +346,7 @@
   }
 
   .about {
-    background-image: url(/assets/img/main_big.png);
+    background-image: url(assets/img/main_big.png);
     background-repeat: no-repeat;
     background-size: 100%;
     overflow: hidden;
