@@ -46,7 +46,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- https://github.com/Rifat8080/mahadi_capstone_project_1
+- https://rifat8080.github.io/mahadi_capstone_project_1/
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
