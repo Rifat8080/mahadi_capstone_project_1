@@ -169,10 +169,15 @@ li {
 
 .flex-container-program {
   background-color: var(--color-secondary);
+  background-image: url(/assets/img/gym-m-bg.png);
+  background-repeat: repeat;
+  background-size: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 100%;
+  height: 100%;
 }
 
 .holder {
@@ -205,7 +210,7 @@ li {
   align-self: center;
   width: 50px;
   height: 50px;
-  margin-left: 2%;
+  margin-left: 3%;
   margin-right: 2%;
 }
 
@@ -228,11 +233,10 @@ li {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 2em;
-  height: 120px;
+  margin-bottom: 1em;
+  height: 90px;
   width: 100%;
-  background: var(--color-third);
-  border-radius: 5px;
+  background: rgba(246, 246, 246, 0.1);
   transition: box-shadow 0.4s ease-out;
 }
 
@@ -243,14 +247,24 @@ li {
   line-break: auto;
   padding-left: 2%;
   padding-right: 2%;
+  width: 20%;
 }
 
 .skill-categories p {
   display: flex;
-  color: var(--color-secondary);
+  color: var(--color-fourth);
   font-family: var(--fonts);
   font-size: 12px;
-  width: 100%;
+  width: 70%;
+  padding-right: 2%;
+  padding-left: 8%;
+}
+
+.skill-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
 }
 
 .promotion {
@@ -273,7 +287,6 @@ li {
   font-family: var(--fonts);
   padding: 20px 20px;
   border: none;
-  border-radius: 8px;
   font-weight: bold;
   font-size: medium;
 }
@@ -530,6 +543,27 @@ li {
     opacity: 0.7;
   }
 
+  /* Second section */
+
+  .skill-categories {
+    width: 100%;
+    height: 140px;
+  }
+
+  .skill-img img {
+    width: 80px;
+    height: 80px;
+  }
+
+  .skill-title {
+    font-size: 16px;
+    width: 40%;
+  }
+
+  .skill-box {
+    margin-top: -4%;
+    margin-left: 5%;
+  }
   .logo-desktop {
     display: none;
   }
@@ -758,6 +792,9 @@ li {
     align-items: center;
     width: 100%;
     height: 100%;
+    background-image: url(/assets/img/gym-d-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 
   .holder {
@@ -803,13 +840,13 @@ li {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 280px;
-    width: 330px;
-    padding: 10%;
+    height: 300px;
+    width: 180px;
   }
 
   .skill-img img {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-self: center;
     width: 50px;
@@ -817,19 +854,34 @@ li {
     margin-left: 2%;
     margin-right: 2%;
     margin-top: 5%;
+    margin-bottom: 2%;
   }
 
   .skill-categories p {
     display: flex;
-    color: var(--color-secondary);
+    color: var(--color-fourth);
     font-family: var(--fonts);
     font-size: 16px;
-    width: 100%;
+    width: 80%;
     text-align: center;
   }
 
   .skill-title {
-    font-size: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 18px;
+    margin-top: 5px;
+    padding-top: 5%;
+    width: 100%;
+    text-align: center;
+  }
+
+  .skill-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 
   /* Gym partner logos */
@@ -1210,16 +1262,16 @@ li {
     align-items: center;
     justify-content: center;
     height: 320px;
-    width: 400px;
-    padding: 10%;
+    width: 230px;
+    padding: 5px;
   }
 
   .skill-img img {
     display: flex;
     justify-content: center;
     align-self: center;
-    width: 50px;
-    height: 50px;
+    width: 80px;
+    height: 80px;
     margin-left: 2%;
     margin-right: 2%;
     margin-top: 5%;
@@ -1227,7 +1279,7 @@ li {
 
   .skill-categories p {
     display: flex;
-    color: var(--color-secondary);
+    color: var(--color-fourth);
     font-family: var(--fonts);
     font-size: 16px;
     width: 100%;
@@ -1585,7 +1637,7 @@ li {
     align-items: center;
     justify-content: center;
     height: 350px;
-    width: 500px;
+    width: 300px;
     padding: 10%;
   }
 
@@ -1593,8 +1645,8 @@ li {
     display: flex;
     justify-content: center;
     align-self: center;
-    width: 50px;
-    height: 50px;
+    width: 90px;
+    height: 90px;
     margin-left: 2%;
     margin-right: 2%;
     margin-top: 5%;
@@ -1602,7 +1654,7 @@ li {
 
   .skill-categories p {
     display: flex;
-    color: var(--color-secondary);
+    color: var(--color-fourth);
     font-family: var(--fonts);
     font-size: 16px;
     width: 100%;
@@ -1959,8 +2011,8 @@ li {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100%;
-    width: 100%;
+    height: 400px;
+    width: 400px;
     padding: 10%;
   }
 
@@ -1976,7 +2028,7 @@ li {
 
   .skill-categories p {
     display: flex;
-    color: var(--color-secondary);
+    color: var(--color-fourth);
     font-family: var(--fonts);
     font-size: 25px;
     width: 100%;
