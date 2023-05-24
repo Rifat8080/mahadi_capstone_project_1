@@ -85,8 +85,7 @@ li {
 .flex-container {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  text-align: center;
+  align-items: first baseline;
   width: 100%;
   height: 100%;
 }
@@ -95,12 +94,11 @@ li {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  margin-left: 3%;
+  margin-left: 6%;
 }
 
 .small-title {
   color: var(--color-primary);
-  margin-right: 0%;
   margin-top: 20%;
   font-family: 'lato', arial, helvetica, sans-serif;
   font-weight: 600;
@@ -126,7 +124,7 @@ li {
 }
 
 .heading-box {
-  width: 90%;
+  width: 80%;
   background-color: rgba(246, 246, 246);
   font-family: var(--fonts);
   border: var(--color-fourth) 5px solid;
@@ -135,23 +133,30 @@ li {
   padding: 3%;
 }
 
+.end-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-left: -15%;
+}
+
 .end-title {
   font-family: var(--fonts);
   font-weight: bold;
   text-align: left;
-  margin-right: 30%;
   color: var(--color-secondary);
   opacity: 0.7;
+  width: 100%;
 }
 
 .end-p {
   font-family: var(--fonts);
   font-weight: bold;
   text-align: left;
-  margin-right: 15%;
   margin-top: -1%;
   color: var(--color-secondary);
   opacity: 0.7;
+  width: 100%;
 }
 
 /* Gym main programs */
@@ -273,6 +278,15 @@ li {
   font-size: medium;
 }
 
+.promo-btn:hover {
+  background-color: var(--color-fourth);
+  color: var(--color-primary);
+}
+
+.promotion a {
+  display: none;
+}
+
 /* Gym partner logos */
 
 .flex-container-partner {
@@ -364,12 +378,17 @@ li {
   }
 
   /* Home page first Section */
+  .flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
 
   .home-heading {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    margin-left: 3%;
+    margin-left: 8%;
   }
 
   .small-title {
@@ -400,7 +419,7 @@ li {
   }
 
   .heading-box {
-    width: 90%;
+    width: 80%;
     background-color: rgba(246, 246, 246);
     font-family: var(--fonts);
     border: var(--color-fourth) 3px solid;
@@ -409,11 +428,16 @@ li {
     padding: 3%;
   }
 
+  .end-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: start;
+    margin-right: 5%;
+  }
   .end-title {
     font-family: var(--fonts);
     font-weight: bold;
-    text-align: left;
-    margin-right: 30%;
     color: var(--color-secondary);
     opacity: 0.7;
   }
@@ -421,8 +445,6 @@ li {
   .end-p {
     font-family: var(--fonts);
     font-weight: bold;
-    text-align: left;
-    margin-right: 19%;
     margin-top: -1%;
     color: var(--color-secondary);
     opacity: 0.7;
@@ -437,22 +459,27 @@ li {
 
 @media (min-width: 426px) and (max-width: 768px) {
   /* Home page first Section */
+  .flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: first baseline;
+    margin-left: -3%;
+  }
 
   .home-heading {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    margin-left: 3%;
   }
 
   .small-title {
     color: var(--color-primary);
-    margin-right: 0%;
-    margin-top: 20%;
+    margin-top: 15%;
     font-family: 'lato', arial, helvetica, sans-serif;
     font-weight: 600;
     font-style: normal;
-    font-size: 18px;
+    font-size: 28px;
     margin-bottom: 2%;
     text-align: left;
   }
@@ -461,7 +488,7 @@ li {
     font-family: var(--fonts);
     font-weight: 1000;
     font-style: normal;
-    font-size: 30px;
+    font-size: 35px;
     margin-right: 0%;
     margin-top: 0;
     text-align: left;
@@ -473,7 +500,7 @@ li {
   }
 
   .heading-box {
-    width: 60%;
+    width: 80%;
     background-color: rgba(246, 246, 246);
     font-family: var(--fonts);
     border: var(--color-fourth) 3px solid;
@@ -482,6 +509,9 @@ li {
     padding: 3%;
   }
 
+  .end-box {
+    margin-bottom: 5%;
+  }
   .end-title {
     font-family: var(--fonts);
     font-weight: bold;
@@ -597,10 +627,11 @@ li {
   }
 
   .flex-container {
-    margin-left: 15%;
+    margin-left: 10%;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: first baseline;
+    justify-content: flex-start;
   }
 
   .home-heading {
@@ -615,7 +646,7 @@ li {
     font-family: 'lato', arial, helvetica, sans-serif;
     font-weight: 600;
     font-style: normal;
-    font-size: 40px;
+    font-size: 30px;
     margin-bottom: 2%;
     text-align: left;
   }
@@ -624,7 +655,8 @@ li {
     font-family: var(--fonts);
     font-weight: 1000;
     font-style: normal;
-    font-size: 60px;
+    width: 70%;
+    font-size: 50px;
     margin-right: 0%;
     text-align: left;
     background-image: url(assets/img/orange.jpeg);
@@ -635,11 +667,11 @@ li {
   }
 
   .heading-box {
-    width: 50%;
+    width: 45%;
     background-color: rgb(246, 246, 246);
     font-family: var(--fonts);
     border: var(--color-fourth) 5px solid;
-    font-size: 20px;
+    font-size: 16px;
     text-align: left;
     padding: 3%;
     margin-top: -2%;
@@ -789,6 +821,7 @@ li {
     font-family: var(--fonts);
     font-size: 20px;
     text-underline-position: under;
+    display: block;
   }
 
   /* Gym partner logos */
@@ -1000,10 +1033,11 @@ li {
   }
 
   .flex-container {
-    margin-left: 18%;
+    margin-left: 13%;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: first baseline;
+    justify-content: flex-start;
   }
 
   .home-heading {
@@ -1025,6 +1059,7 @@ li {
 
   .big-title {
     font-family: var(--fonts);
+    width: 70%;
     font-weight: 1000;
     font-style: normal;
     font-size: 60px;
@@ -1038,11 +1073,11 @@ li {
   }
 
   .heading-box {
-    width: 50%;
+    width: 40%;
     background-color: rgb(246, 246, 246);
     font-family: var(--fonts);
     border: var(--color-fourth) 5px solid;
-    font-size: 20px;
+    font-size: 16px;
     text-align: left;
     padding: 3%;
     margin-top: -2%;
@@ -1132,7 +1167,7 @@ li {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    width: 1024px;
+    width: 1440px;
   }
 
   .myself-skillset {
