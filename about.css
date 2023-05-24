@@ -1,3 +1,9 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
 :root {
   margin: 0;
   padding: 0;
@@ -478,7 +484,7 @@
 
   /* Winner history section */
   .winner-history {
-    margin-bottom: 20%;
+    margin-bottom: 10%;
   }
 
   .win {
@@ -588,5 +594,47 @@
     height: 100%;
     background-color: rgba(236, 82, 66, 0.5); /* Adjust the opacity as needed */
     z-index: 1;
+  }
+
+  .flex-container-partner {
+    display: none;
+  }
+
+  /* footer section */
+
+  .footer-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background-color: #272a31;
+  }
+
+  .footer-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 5%;
+  }
+
+  .deskl {
+    display: none;
+  }
+
+  .logo {
+    display: block;
+    color: #fff;
+    padding: 0%;
+    margin: 0%;
+  }
+
+  .credits {
+    color: #fff;
+    padding: 0%;
+    margin: 0%;
   }
 }
