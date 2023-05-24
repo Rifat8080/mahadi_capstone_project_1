@@ -432,6 +432,7 @@ li {
     align-items: start;
     margin-right: 5%;
   }
+
   .end-title {
     font-family: var(--fonts);
     font-weight: bold;
@@ -509,6 +510,7 @@ li {
   .end-box {
     margin-bottom: 5%;
   }
+
   .end-title {
     font-family: var(--fonts);
     font-weight: bold;
@@ -614,6 +616,15 @@ li {
     line-height: 4rem;
   }
 
+  .promotion a {
+    text-decoration: underline;
+    color: var(--color-fourth);
+    font-family: var(--fonts);
+    font-size: 20px;
+    text-underline-position: under;
+    display: block;
+  }
+
   .menu-list .menu-item a {
     color: var(--color-secondary);
     font-family: var(--fonts);
@@ -687,6 +698,7 @@ li {
     width: 100%;
     margin-left: 3%;
   }
+
   .end-title {
     font-family: var(--fonts);
     font-weight: bold;
@@ -818,15 +830,6 @@ li {
 
   .skill-title {
     font-size: 25px;
-  }
-
-  .promotion a {
-    text-decoration: underline;
-    color: var(--color-fourth);
-    font-family: var(--fonts);
-    font-size: 20px;
-    text-underline-position: under;
-    display: block;
   }
 
   /* Gym partner logos */
@@ -1020,6 +1023,14 @@ li {
     line-height: 4rem;
   }
 
+  .promotion a {
+    text-decoration: underline;
+    color: var(--color-fourth);
+    font-family: var(--fonts);
+    font-size: 20px;
+    text-underline-position: under;
+  }
+
   .menu-list .menu-item a {
     color: var(--color-secondary);
     font-family: var(--fonts);
@@ -1093,6 +1104,7 @@ li {
     width: 100%;
     margin-left: 3%;
   }
+
   .end-title {
     font-family: var(--fonts);
     font-weight: bold;
@@ -1224,14 +1236,6 @@ li {
 
   .skill-title {
     font-size: 25px;
-  }
-
-  .promotion a {
-    text-decoration: underline;
-    color: var(--color-fourth);
-    font-family: var(--fonts);
-    font-size: 20px;
-    text-underline-position: under;
   }
 
   /* Gym partner logos */
@@ -1394,6 +1398,14 @@ li {
     line-height: 4rem;
   }
 
+  .promotion a {
+    text-decoration: underline;
+    color: var(--color-fourth);
+    font-family: var(--fonts);
+    font-size: 20px;
+    text-underline-position: under;
+  }
+
   .menu-list .menu-item a {
     color: var(--color-secondary);
     font-family: var(--fonts);
@@ -1467,6 +1479,7 @@ li {
     width: 100%;
     margin-left: 3%;
   }
+
   .end-title {
     font-family: var(--fonts);
     font-weight: bold;
@@ -1598,14 +1611,6 @@ li {
 
   .skill-title {
     font-size: 25px;
-  }
-
-  .promotion a {
-    text-decoration: underline;
-    color: var(--color-fourth);
-    font-family: var(--fonts);
-    font-size: 20px;
-    text-underline-position: under;
   }
 
   /* Gym partner logos */

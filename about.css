@@ -607,8 +607,7 @@ body {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-
-    height: 1--0%;
+    height: 100%;
     width: 100%;
     background-color: #272a31;
   }
@@ -628,8 +627,6 @@ body {
 
   .logo {
     display: block;
-  }
-  .logo {
     color: #fff;
     padding: 0%;
     margin: 0%;
