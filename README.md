@@ -24,7 +24,7 @@
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
-# 📖 [Capstone_project_1] <a name="about-project"></a>
+# 📖 [Capstone_project_1] <a name="about-project">This repository contains the code for a dynamic and interactive gym website developed as a capstone project. The website is designed using HTML, CSS, and JavaScript, offering a comprehensive platform for gym enthusiasts to explore fitness-related information, track their workouts, and connect with other fitness enthusiasts.</a>
 
 > It is a project build with HTML,CSS and Javascript according to linters standards. Mobile responsive website version.
 
